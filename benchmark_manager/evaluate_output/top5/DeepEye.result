@@ -1,0 +1,19 @@
+name	Precision	Recall	F1-score	Average Precision	Normalized DCG
+airplane_crashes	0.2	0.045454545454545456	0.07407407407407407	1.0	1.0
+avito_demand	0	0	0	0	0
+avocados_price	0	0	0	0	0
+flight_delay	0	0	0	0	0
+google_play_store	0	0	0	0	0
+gun_violence	0.8	0.19047619047619047	0.3076923076923077	0.95	0.9987267326532804
+h1b_visa	0	0	0	0	0
+home_credit_risk	0	0	0	0	0
+kickstarter	0	0	0	0	0
+lending_club	0	0	0	0	0
+patient_charge	0.2	0.07142857142857142	0.10526315789473682	1.0	1.0
+sberbank_russian_housing_market	0	0	0	0	0
+student_performance	0.2	0.029411764705882353	0.05128205128205128	0.3333333333333333	0.5
+suicide_rates	0	0	0	0	0
+terrorism	0	0	0	0	0
+titan	0.4	0.08695652173913043	0.14285714285714285	0.7	0.7219355164662234
+videogame	0	0	0	0	0
+zomato	0	0	0	0	0

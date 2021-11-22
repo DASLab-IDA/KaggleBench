@@ -1,0 +1,4260 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.005825169378756733,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "scatter",
+            "score": 0.005825169378756719,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "scatter",
+            "score": 0.005825169378756719,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "scatter",
+            "score": 0.005825169378756718,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "scatter",
+            "score": 0.005825169378756718,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "scatter",
+            "score": 0.005825169378756697,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "pie",
+            "score": 0.005390781688767457,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age_group",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "pie",
+            "score": 0.005354158612195006,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sex",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "pie",
+            "score": 0.005354158612195006,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "smoker",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "pie",
+            "score": 0.005354158612195005,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "pie",
+            "score": 0.0053541586121950025,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "scatter",
+            "score": 0.00513111422956217,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "scatter",
+            "score": 0.00513111422956217,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "scatter",
+            "score": 0.005131114229562167,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "scatter",
+            "score": 0.005131114229562167,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "scatter",
+            "score": 0.005131114229562167,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "scatter",
+            "score": 0.005131114229562165,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "scatter",
+            "score": 0.005100923116962683,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "scatter",
+            "score": 0.005100923116962683,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "scatter",
+            "score": 0.005100923116962683,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "scatter",
+            "score": 0.005100923116962683,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "scatter",
+            "score": 0.00510092311696268,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "scatter",
+            "score": 0.0051009231169626785,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "scatter",
+            "score": 0.0051009231169626785,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "scatter",
+            "score": 0.0051009231169626785,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "scatter",
+            "score": 0.0051009231169626785,
+            "channels": {
+                "x": {
+                    "attr": "children",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "scatter",
+            "score": 0.005100923116962677,
+            "channels": {
+                "x": {
+                    "attr": "bmi",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "pie",
+            "score": 0.005033674904242067,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "pie",
+            "score": 0.005033674904242067,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "pie",
+            "score": 0.005033674904242067,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "pie",
+            "score": 0.005033674904242065,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "pie",
+            "score": 0.0049973623776992425,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "pie",
+            "score": 0.00499736237769924,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "pie",
+            "score": 0.00499736237769924,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "pie",
+            "score": 0.00499736237769924,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "pie",
+            "score": 0.00499736237769924,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "pie",
+            "score": 0.00499736237769924,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.004814960072407461,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.0047672238153938055,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sex",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.0047672238153938055,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "smoker",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.004767223815393804,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.004767223815393802,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.004733322627937966,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.004733322627937966,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.0047333226279379645,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.0047333226279379645,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.00469297404388127,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.00469297404388127,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.00469297404388127,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.004692974043881266,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.00468079462002988,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "smoker",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.00468079462002988,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sex",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.004680794620029876,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi_group",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.004680794620029876,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.004558399334133927,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.004558399334133927,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.004558399334133924,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.004558399334133924,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.004511859067799905,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.004511859067799905,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.004511859067799905,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.004511859067799903,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.004511859067799901,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.004511859067799901,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.004511859067799901,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.004501551953951128,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.004501551953951125,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.004501551953951125,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.004501551953951123,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.004501551953951123,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.004501551953951123,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.004501551953951123,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.0045015519539511216,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.0045015519539511216,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.0045015519539511216,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.0045015519539511216,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.00450155195395112,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.00450155195395112,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.00450155195395112,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.00450155195395112,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.00450155195395112,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.004472385559158083,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.004472385559158083,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.0044723855591580815,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.0044723855591580815,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.004461924877107128,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.004461924877107125,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.004461924877107125,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.004461924877107122,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.00446192487710712,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.0044508021254348815,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.00445080212543488,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "bar",
+            "score": 0.0044258210792545265,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "bar",
+            "score": 0.0044258210792545265,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "bar",
+            "score": 0.004425821079254526,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.004425821079254525,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "bar",
+            "score": 0.004425821079254525,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 161,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 162,
+            "type": "bar",
+            "score": 0.004425821079254524,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 163,
+            "type": "bar",
+            "score": 0.004425821079254522,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 164,
+            "type": "bar",
+            "score": 0.004425821079254522,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 165,
+            "type": "bar",
+            "score": 0.004425821079254522,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 166,
+            "type": "bar",
+            "score": 0.004425821079254522,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 167,
+            "type": "bar",
+            "score": 0.004423338264128095,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 168,
+            "type": "bar",
+            "score": 0.004423338264128095,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 169,
+            "type": "bar",
+            "score": 0.004423338264128092,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 170,
+            "type": "bar",
+            "score": 0.004423338264128092,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 171,
+            "type": "bar",
+            "score": 0.004423338264128092,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 172,
+            "type": "bar",
+            "score": 0.00442333826412809,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 173,
+            "type": "bar",
+            "score": 0.00442333826412809,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 174,
+            "type": "bar",
+            "score": 0.00442333826412809,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 175,
+            "type": "bar",
+            "score": 0.00442333826412809,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 176,
+            "type": "bar",
+            "score": 0.004423338264128089,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 177,
+            "type": "bar",
+            "score": 0.004423338264128089,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 178,
+            "type": "bar",
+            "score": 0.004423338264128089,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 179,
+            "type": "bar",
+            "score": 0.004423338264128089,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 180,
+            "type": "bar",
+            "score": 0.004423338264128088,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 181,
+            "type": "bar",
+            "score": 0.004423338264128088,
+            "channels": {
+                "x": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 182,
+            "type": "bar",
+            "score": 0.004423338264128088,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 183,
+            "type": "bar",
+            "score": 0.004383692867955619,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 184,
+            "type": "bar",
+            "score": 0.004383692867955615,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 185,
+            "type": "bar",
+            "score": 0.004383692867955615,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 186,
+            "type": "bar",
+            "score": 0.004383692867955615,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 187,
+            "type": "bar",
+            "score": 0.004383692867955615,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 188,
+            "type": "bar",
+            "score": 0.004383692867955615,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 189,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 190,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 191,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 192,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 193,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 194,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 195,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 196,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 197,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 198,
+            "type": "bar",
+            "score": 0.004383692867955614,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 199,
+            "type": "bar",
+            "score": 0.004372564118789468,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 200,
+            "type": "bar",
+            "score": 0.004372564118789465,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 201,
+            "type": "bar",
+            "score": 0.004372564118789465,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 202,
+            "type": "bar",
+            "score": 0.004372564118789465,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 203,
+            "type": "bar",
+            "score": 0.004372564118789463,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 204,
+            "type": "bar",
+            "score": 0.004372564118789463,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 205,
+            "type": "bar",
+            "score": 0.004372564118789463,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "children",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 206,
+            "type": "bar",
+            "score": 0.004372564118789463,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "charges",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 207,
+            "type": "bar",
+            "score": 0.004372564118789462,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 208,
+            "type": "bar",
+            "score": 0.004372564118789462,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 209,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 210,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 211,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 212,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "smoker",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 213,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 214,
+            "type": "bar",
+            "score": 0.0043725641187894616,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "bmi",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "bmi_group",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        }
+    ]
+}

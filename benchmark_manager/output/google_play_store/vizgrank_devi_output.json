@@ -1,0 +1,3234 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "line",
+            "score": 0.007337278836332061,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "line",
+            "score": 0.007337278836332061,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "line",
+            "score": 0.007318087908166617,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "line",
+            "score": 0.007318087908166614,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "line",
+            "score": 0.007318087908166613,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "line",
+            "score": 0.0073028215475476775,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "line",
+            "score": 0.007302821547547677,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.007299532259123261,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.0072995322591232585,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "line",
+            "score": 0.007287838365503145,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "line",
+            "score": 0.007287838365503145,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "line",
+            "score": 0.007287526324031673,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "line",
+            "score": 0.007287526324031673,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "line",
+            "score": 0.007287526324031673,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.0072803436785239765,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.007280343678523974,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.007280343678523973,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "line",
+            "score": 0.007272543494660811,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "line",
+            "score": 0.007272543494660811,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "line",
+            "score": 0.007272543494660811,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.007265087175573898,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.007265087175573896,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "line",
+            "score": 0.007260108072391005,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "line",
+            "score": 0.0072601080723910015,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.007250112607543036,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.007250112607543035,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.007249794369499054,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.007249794369499053,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.007249794369499053,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "line",
+            "score": 0.0072476457292572575,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "line",
+            "score": 0.007247645729257256,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "line",
+            "score": 0.007247645729257254,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.0072348201444538615,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.00723482014445386,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.00723482014445386,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.007222394315993958,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.007222394315993955,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.007209934406765547,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.007209934406765543,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.007209934406765543,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "line",
+            "score": 0.006933351821233102,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "line",
+            "score": 0.006933351821233102,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "line",
+            "score": 0.0069107006286630865,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "line",
+            "score": 0.0069107006286630865,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "line",
+            "score": 0.0069107006286630865,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "line",
+            "score": 0.0068931617132706345,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "line",
+            "score": 0.0068931617132706345,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "line",
+            "score": 0.006876147492141507,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "line",
+            "score": 0.006876147492141507,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "line",
+            "score": 0.006875613687051,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "line",
+            "score": 0.006875613687050997,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "line",
+            "score": 0.006875613687050994,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "line",
+            "score": 0.006858599710960001,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "line",
+            "score": 0.006858599710959999,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "line",
+            "score": 0.006858599710959997,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "line",
+            "score": 0.0068446302317010516,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "line",
+            "score": 0.0068446302317010516,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "line",
+            "score": 0.006830653794916113,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "line",
+            "score": 0.006830653794916113,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "line",
+            "score": 0.006830653794916112,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "line",
+            "score": 0.006569836629740398,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.006528036656694484,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "line",
+            "score": 0.006519929360588898,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.0064781516308742276,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "line",
+            "score": 0.006450154144515828,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "line",
+            "score": 0.006450154144515827,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.006445934949362869,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.006445934949362869,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "line",
+            "score": 0.006429609504038954,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "line",
+            "score": 0.006429609504038953,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "line",
+            "score": 0.006429609504038952,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.006423277737962959,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.006423277737962956,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.006423277737962956,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "line",
+            "score": 0.006413704136366375,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "line",
+            "score": 0.006413704136366372,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.006405720908161777,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.006405720908161774,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "line",
+            "score": 0.006397799260609255,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "line",
+            "score": 0.00639779926060925,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "line",
+            "score": 0.00639779926060925,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.006388168986867631,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.006388168986867627,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.006388168986867627,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "line",
+            "score": 0.006086522126680667,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "line",
+            "score": 0.006028344104051912,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.005976552264257531,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.005976552264257531,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.005949032252958386,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.0059490322529583825,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.005949032252958382,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.005928458653583189,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.005928458653583189,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.0059087941015589385,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.0059087941015589385,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.005907904074830294,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.005907904074830293,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.005907904074830293,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.005888239341178459,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.005888239341178457,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.005888239341178456,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.005872305364385945,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.005872305364385945,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.005856393240698055,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.005856393240698055,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.005856393240698054,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.005596323818143933,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Content Rating",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "line",
+            "score": 0.005505200093761166,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "line",
+            "score": 0.005444158037137688,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "line",
+            "score": 0.005444158037137686,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "line",
+            "score": 0.005428218320687242,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "line",
+            "score": 0.005428218320687238,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "line",
+            "score": 0.0054282183206872375,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "line",
+            "score": 0.005415528588981696,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "line",
+            "score": 0.005415528588981692,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "line",
+            "score": 0.005402838955871295,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "line",
+            "score": 0.005402838955871295,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "line",
+            "score": 0.0054028389558712945,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.005364198122614984,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.005364198122614983,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.005348257321840956,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.005348257321840954,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.005348257321840953,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.005335572193311187,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.005335572193311186,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.0053228820034646445,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.0053228820034646445,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.0053228820034646445,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "scatter",
+            "score": 0.005254353584916524,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "scatter",
+            "score": 0.005236833775432486,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "scatter",
+            "score": 0.005236833775432485,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "scatter",
+            "score": 0.005236833775432485,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "scatter",
+            "score": 0.0052368337754324845,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "scatter",
+            "score": 0.005236833775432482,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "scatter",
+            "score": 0.005236833775432481,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "scatter",
+            "score": 0.005219313549182797,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "scatter",
+            "score": 0.005219313549182795,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "scatter",
+            "score": 0.0052193135491827945,
+            "channels": {
+                "x": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "scatter",
+            "score": 0.005202146388088027,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "scatter",
+            "score": 0.005188208067800987,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "scatter",
+            "score": 0.005188208067800983,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "scatter",
+            "score": 0.005188208067800983,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "scatter",
+            "score": 0.00518820806780098,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "scatter",
+            "score": 0.005188208067800978,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "scatter",
+            "score": 0.005188208067800978,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "scatter",
+            "score": 0.005174269571452816,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "scatter",
+            "score": 0.005174269571452815,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "scatter",
+            "score": 0.005174269571452814,
+            "channels": {
+                "x": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.005028166131261672,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Type",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.004958396093420561,
+            "channels": {
+                "x": {
+                    "attr": "Content Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Content Rating",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "pie",
+            "score": 0.004856501048600742,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "pie",
+            "score": 0.004856501048600742,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "line",
+            "score": 0.00448451706611663,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.004397415073463534,
+            "channels": {
+                "x": {
+                    "attr": "Last Updated",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Last Updated",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "pie",
+            "score": 0.003886300615866077,
+            "channels": {
+                "x": {
+                    "attr": "Type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Type",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "scatter",
+            "score": 0.003178163832598042,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "scatter",
+            "score": 0.003163745919963783,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "scatter",
+            "score": 0.003163745919963781,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "scatter",
+            "score": 0.0031637459199637744,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Size",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "scatter",
+            "score": 0.003163745919963773,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 161,
+            "type": "scatter",
+            "score": 0.0031637459199637713,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 162,
+            "type": "scatter",
+            "score": 0.0031637459199637705,
+            "channels": {
+                "x": {
+                    "attr": "Size",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 163,
+            "type": "scatter",
+            "score": 0.003149324105461828,
+            "channels": {
+                "x": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 164,
+            "type": "scatter",
+            "score": 0.0031493241054618274,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Installs",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 165,
+            "type": "scatter",
+            "score": 0.0031493241054618274,
+            "channels": {
+                "x": {
+                    "attr": "Reviews",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Price",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1190 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.013802488937263727,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "NA_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.013802488937263727,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "NA_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.013802488937263725,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.013802488937263725,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.013802488937263725,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.013802488937263725,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "NA_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "NA_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "EU_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "EU_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "EU_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "EU_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.013802488937263723,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.013802488937263716,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.013802488937263716,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.013802488937263716,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.013802488937263716,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.013802488937263716,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "scatter",
+            "score": 0.013320342034187834,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "scatter",
+            "score": 0.013320342034187829,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "scatter",
+            "score": 0.01332034203418782,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "scatter",
+            "score": 0.013320342034187818,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "scatter",
+            "score": 0.013320342034187818,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "scatter",
+            "score": 0.013320342034187818,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "scatter",
+            "score": 0.013320342034187818,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "scatter",
+            "score": 0.013320342034187816,
+            "channels": {
+                "x": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "scatter",
+            "score": 0.013320342034187815,
+            "channels": {
+                "x": {
+                    "attr": "EU_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "scatter",
+            "score": 0.013320342034187815,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "scatter",
+            "score": 0.013320342034187815,
+            "channels": {
+                "x": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "scatter",
+            "score": 0.013320342034187815,
+            "channels": {
+                "x": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "scatter",
+            "score": 0.013320342034187815,
+            "channels": {
+                "x": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "scatter",
+            "score": 0.013320342034187811,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "scatter",
+            "score": 0.013320342034187811,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "scatter",
+            "score": 0.01332034203418781,
+            "channels": {
+                "x": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "scatter",
+            "score": 0.013320342034187808,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Global_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "scatter",
+            "score": 0.013320342034187808,
+            "channels": {
+                "x": {
+                    "attr": "Other_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "scatter",
+            "score": 0.013320342034187808,
+            "channels": {
+                "x": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "scatter",
+            "score": 0.013320342034187808,
+            "channels": {
+                "x": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "scatter",
+            "score": 0.013320342034187808,
+            "channels": {
+                "x": {
+                    "attr": "User_Score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "scatter",
+            "score": 0.013320342034187806,
+            "channels": {
+                "x": {
+                    "attr": "Critic_Score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Critic_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "scatter",
+            "score": 0.013320342034187804,
+            "channels": {
+                "x": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "User_Count",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "scatter",
+            "score": 0.0133203420341878,
+            "channels": {
+                "x": {
+                    "attr": "NA_Sales",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "JP_Sales",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.011789042513872458,
+            "channels": {
+                "x": {
+                    "attr": "Rating",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Rating",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.011789042513872456,
+            "channels": {
+                "x": {
+                    "attr": "Genre",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Genre",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        }
+    ]
+}

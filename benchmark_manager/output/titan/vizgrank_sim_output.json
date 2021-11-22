@@ -1,0 +1,2878 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.008402080898616998,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "scatter",
+            "score": 0.008394839783914925,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "scatter",
+            "score": 0.008394839783914925,
+            "channels": {
+                "x": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "scatter",
+            "score": 0.008394839783914922,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "scatter",
+            "score": 0.008394839783914901,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "scatter",
+            "score": 0.008387598661690105,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "pie",
+            "score": 0.00783016014801398,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Embarked",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "pie",
+            "score": 0.007805392898909921,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Pclass",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "pie",
+            "score": 0.007726839414666052,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Survived",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "pie",
+            "score": 0.007726839414666052,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Sex",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "scatter",
+            "score": 0.007356964978297079,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "scatter",
+            "score": 0.0073481289926656135,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "scatter",
+            "score": 0.007348128992665612,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "scatter",
+            "score": 0.007348128992665611,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "scatter",
+            "score": 0.007348128992665611,
+            "channels": {
+                "x": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "scatter",
+            "score": 0.007339293000886828,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "scatter",
+            "score": 0.007339283844080555,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "scatter",
+            "score": 0.007332201473731907,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "scatter",
+            "score": 0.007332201473731906,
+            "channels": {
+                "x": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "scatter",
+            "score": 0.007332201473731904,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "scatter",
+            "score": 0.0073322014737319035,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "scatter",
+            "score": 0.0073251190975167175,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "pie",
+            "score": 0.007311400008880955,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "pie",
+            "score": 0.007311400008880953,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "pie",
+            "score": 0.0072976436582109505,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "pie",
+            "score": 0.007297643658210947,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "pie",
+            "score": 0.007283898338163107,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "pie",
+            "score": 0.007283898338163103,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "scatter",
+            "score": 0.0072745219111156455,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "scatter",
+            "score": 0.007274521911115643,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "scatter",
+            "score": 0.007267438733229313,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "scatter",
+            "score": 0.007267438733229312,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "scatter",
+            "score": 0.007267438733229308,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "scatter",
+            "score": 0.007267438733229308,
+            "channels": {
+                "x": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "scatter",
+            "score": 0.007267438733229305,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "scatter",
+            "score": 0.007267438733229304,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "scatter",
+            "score": 0.007267438733229302,
+            "channels": {
+                "x": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "scatter",
+            "score": 0.0072674387332293,
+            "channels": {
+                "x": {
+                    "attr": "Parch",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "scatter",
+            "score": 0.0072603555494623094,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "scatter",
+            "score": 0.007260355549462306,
+            "channels": {
+                "x": {
+                    "attr": "Age",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "pie",
+            "score": 0.007219753380987079,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "pie",
+            "score": 0.007219753380987078,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "pie",
+            "score": 0.007219753380987078,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "pie",
+            "score": 0.007219753380987078,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "pie",
+            "score": 0.007206006793064415,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "pie",
+            "score": 0.007206006793064415,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "pie",
+            "score": 0.007206006793064411,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "pie",
+            "score": 0.007206006793064411,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.007025268547877517,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Embarked",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.007006618374851708,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Pclass",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.00690424849278125,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Sex",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.006904248492781247,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Survived",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "bar",
+            "score": 0.006884398574822066,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Embarked",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "bar",
+            "score": 0.006797856847798844,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Embarked",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "bar",
+            "score": 0.006797856847798842,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Embarked",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "bar",
+            "score": 0.006781731649275895,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Pclass",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "bar",
+            "score": 0.006781731649275895,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Pclass",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "bar",
+            "score": 0.006669098649574326,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Sex",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "bar",
+            "score": 0.006669098649574326,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Survived",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.006665533007647977,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "bar",
+            "score": 0.006665533007647977,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.006655194225604598,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.006655194225604593,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.00664712027917933,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.006647120279179326,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.006639059344876262,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.006639059344876259,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.006561023929621151,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.0065610239296211475,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.0065521724523294606,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.00655217245232946,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.0065473204236499724,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.0065473204236499724,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.006547320423649967,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.006547320423649966,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.006540681929276689,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.006540681929276685,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.006539257759665754,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.00653925775966575,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.00653925775966575,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.006539257759665748,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.0065269223491070455,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.006526922349107041,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.006516566024942349,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.0065165660249423395,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.006506222528336603,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.006506222528336603,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.006476034565256442,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.006476034565256439,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.006476034565256433,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.006476034565256432,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.006467181784392546,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.006467181784392545,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.006467181784392543,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.00646718178439254,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.006460076330253171,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.006460076330253167,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.0064600763302531655,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.0064600763302531655,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.006452977572337398,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.006452977572337398,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.006452977572337397,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.006452977572337395,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.006444556733155446,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.006444556733155446,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.006433196030805197,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.006433196030805194,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.006416704780928415,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.006416704780928415,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.006416704780928413,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.006416704780928411,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.006406359447085478,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.006406359447085478,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.006406359447085476,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.006406359447085474,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.006359520846703477,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.006359520846703477,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.006359520846703475,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.006359520846703473,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.0063512598781781514,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.0063512598781781514,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.006351259878178146,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.006351259878178146,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.006348158769090503,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.006348158769090499,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.006348158769090498,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.0063481587690904975,
+            "channels": {
+                "x": {
+                    "attr": "Embarked",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.00634415928758121,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.00634415928758121,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.00634415928758121,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.00634415928758121,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.006339296089673371,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.006339296089673371,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.006339296089673369,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.006339296089673369,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.0063304392808934355,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.006330439280893435,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.006330439280893435,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.006330439280893434,
+            "channels": {
+                "x": {
+                    "attr": "Pclass",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.006230418805336123,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.006230418805336123,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Parch",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.006230418805336117,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.006230418805336117,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SibSp",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.006221560054355471,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.006221560054355471,
+            "channels": {
+                "x": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.006221560054355471,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Age",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.006221560054355471,
+            "channels": {
+                "x": {
+                    "attr": "Survived",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fare",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "Sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        }
+    ]
+}

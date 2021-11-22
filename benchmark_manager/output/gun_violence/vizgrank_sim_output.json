@@ -1,0 +1,406 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.05331302459303933,
+            "channels": {
+                "x": {
+                    "attr": "n_killed",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "scatter",
+            "score": 0.053313024593039306,
+            "channels": {
+                "x": {
+                    "attr": "n_killed",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "scatter",
+            "score": 0.05331302459303927,
+            "channels": {
+                "x": {
+                    "attr": "n_injured",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "line",
+            "score": 0.04751928971915729,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "line",
+            "score": 0.044041164996426026,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "line",
+            "score": 0.044041164996426026,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "line",
+            "score": 0.04404116499642599,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "line",
+            "score": 0.04404116499642599,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "line",
+            "score": 0.04404116499642599,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "line",
+            "score": 0.04404116499642599,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.04055165437510785,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.04055165437510785,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.03726594481441279,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.03726594481441279,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.03726594481441279,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.03726594481441279,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_guns_involved",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.03726594481441278,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.03726594481441277,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.03726594481441276,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.03726594481441276,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.03726594481441276,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_killed",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.03726594481441276,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.03726594481441276,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.037265944814412755,
+            "channels": {
+                "x": {
+                    "attr": "date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "n_injured",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        }
+    ]
+}

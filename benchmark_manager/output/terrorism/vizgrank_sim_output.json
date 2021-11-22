@@ -1,0 +1,5745 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "pie",
+            "score": 0.0048195239127845745,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "pie",
+            "score": 0.0048195239127845745,
+            "channels": {
+                "x": {
+                    "attr": "ransompaid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "scatter",
+            "score": 0.004729451238667841,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "scatter",
+            "score": 0.0046721554906943965,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "scatter",
+            "score": 0.00467215549069438,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "scatter",
+            "score": 0.004672155490694378,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "scatter",
+            "score": 0.004672155490694378,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "scatter",
+            "score": 0.0046148594637581255,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.004304664054721242,
+            "channels": {
+                "x": {
+                    "attr": "ransompaid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.004304664054721241,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "pie",
+            "score": 0.004210826721393409,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "propextent_txt",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "scatter",
+            "score": 0.004177625242249956,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "scatter",
+            "score": 0.004170173969404339,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "scatter",
+            "score": 0.004170173969404339,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "scatter",
+            "score": 0.004116451197837167,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "scatter",
+            "score": 0.004116451197837167,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "scatter",
+            "score": 0.004116451197837166,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "scatter",
+            "score": 0.004116451197837166,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "scatter",
+            "score": 0.004109084363204369,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "scatter",
+            "score": 0.004109084363204368,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "scatter",
+            "score": 0.004109084363204368,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "scatter",
+            "score": 0.004109084363204368,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "scatter",
+            "score": 0.0041090843632043675,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "scatter",
+            "score": 0.0041090843632043675,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "scatter",
+            "score": 0.004109084363204367,
+            "channels": {
+                "x": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "scatter",
+            "score": 0.004109084363204367,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "pie",
+            "score": 0.004060543003781048,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "pie",
+            "score": 0.0040605430037810395,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "scatter",
+            "score": 0.004055276933041825,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "scatter",
+            "score": 0.004047994536626768,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "scatter",
+            "score": 0.004047994536626767,
+            "channels": {
+                "x": {
+                    "attr": "nkill",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.0037305091892197526,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.0037305091892197518,
+            "channels": {
+                "x": {
+                    "attr": "ransompaid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.0037203512064806275,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.0037203512064806275,
+            "channels": {
+                "x": {
+                    "attr": "ransompaid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.0037203512064806266,
+            "channels": {
+                "x": {
+                    "attr": "nhostkid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.0037203512064806266,
+            "channels": {
+                "x": {
+                    "attr": "ransompaid",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.0036930702024782756,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.0036930702024782756,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "attacktype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.0036930702024782756,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.0036930702024782756,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype2_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.0036930702024782756,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype3_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.0036930702024782747,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "claimmode_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.0036930702024782747,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.0036455203788942577,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.0036455203788942547,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "attacktype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.0036455203788942547,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype3_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.0036455203788942547,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.003645520378894254,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.003645520378894254,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "claimmode_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.003645520378894254,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype2_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.0036344078438820746,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "bar",
+            "score": 0.0036344078438820746,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "bar",
+            "score": 0.0036344078438820746,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "claimmode_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "bar",
+            "score": 0.003634407843882074,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "bar",
+            "score": 0.003634407843882074,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "attacktype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "bar",
+            "score": 0.003634407843882074,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "claimmode_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "bar",
+            "score": 0.003634407843882074,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype3_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "bar",
+            "score": 0.0036344078438820737,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "attacktype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.0036344078438820737,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "bar",
+            "score": 0.0036344078438820737,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype2_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.0036344078438820737,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype3_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.0036344078438820737,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.0036344078438820724,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype1_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.0036344078438820724,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype2_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.0035699289458813316,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.0035699289458813316,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.0035699289458813307,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.0035699289458813307,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.0035699289458813307,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.0035699289458813307,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.0035699289458813303,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.0035699289458813303,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.00356992894588133,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.00356992894588133,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.0035699289458813285,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.0035699289458813285,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.0035699289458813285,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.0035699289458813277,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.0035358624679374976,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.0035358624679374963,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.0035358624679374963,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.0035358624679374963,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.0035358624679374963,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.003535862467937496,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.0035358624679374946,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.0035358624679374946,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.003535862467937494,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.003535862467937494,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.003535862467937494,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.0035358624679374937,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.0035358624679374937,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.0035358624679374937,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.003530310517642103,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "propextent_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.003525575679509392,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.003525575679509392,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.003525575679509392,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.0035255756795093914,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.0035255756795093906,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.0035255756795093906,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.0035255756795093906,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.00352557567950939,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.00352557567950939,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.003525575679509389,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.003525575679509388,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.003525575679509388,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.0035255756795093867,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.0035255756795093867,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.0035255756795093867,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.003517175711450629,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "alternative_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.0035171757114506284,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.003496995014721023,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "alternative_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.0034969950147210227,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.0034800906912965082,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "weaptype4_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.0034800906912965082,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "alternative_txt",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.0034701542628092887,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.0034701542628092887,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.0034701542628092887,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.0034701542628092883,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.003470154262809288,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.003444876620924311,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.003444876620924311,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.00344487662092431,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.0034448766209243097,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.0034448766209243093,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "bar",
+            "score": 0.0034448766209243093,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.0034448766209243093,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.0034448766209243093,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "bar",
+            "score": 0.0034448766209243093,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "bar",
+            "score": 0.003444876620924309,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "bar",
+            "score": 0.003444876620924309,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.003444876620924309,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "bar",
+            "score": 0.0034448766209243076,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "bar",
+            "score": 0.0034448766209243076,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 161,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 162,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 163,
+            "type": "bar",
+            "score": 0.003432385183430162,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 164,
+            "type": "bar",
+            "score": 0.0034323851834301617,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 165,
+            "type": "bar",
+            "score": 0.0034323851834301617,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 166,
+            "type": "bar",
+            "score": 0.0034323851834301617,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 167,
+            "type": "bar",
+            "score": 0.0034323851834301617,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 168,
+            "type": "bar",
+            "score": 0.0034323851834301617,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 169,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 170,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 171,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 172,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 173,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 174,
+            "type": "bar",
+            "score": 0.003432385183430161,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 175,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 176,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 177,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 178,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 179,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 180,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 181,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 182,
+            "type": "bar",
+            "score": 0.0034323851834301604,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 183,
+            "type": "bar",
+            "score": 0.00343238518343016,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 184,
+            "type": "bar",
+            "score": 0.00343238518343016,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 185,
+            "type": "bar",
+            "score": 0.0034178598415382485,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 186,
+            "type": "bar",
+            "score": 0.003417859841538247,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 187,
+            "type": "bar",
+            "score": 0.0034058585327003364,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 188,
+            "type": "bar",
+            "score": 0.0034058585327003356,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 189,
+            "type": "bar",
+            "score": 0.0034058585327003347,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 190,
+            "type": "bar",
+            "score": 0.003405858532700334,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 191,
+            "type": "bar",
+            "score": 0.003395565008213069,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 192,
+            "type": "bar",
+            "score": 0.003395565008213069,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 193,
+            "type": "bar",
+            "score": 0.003395565008213068,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 194,
+            "type": "bar",
+            "score": 0.0033955650082130675,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 195,
+            "type": "bar",
+            "score": 0.003386014389433024,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 196,
+            "type": "bar",
+            "score": 0.0033860143894330237,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 197,
+            "type": "bar",
+            "score": 0.0033860143894330237,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 198,
+            "type": "bar",
+            "score": 0.0033860143894330237,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 199,
+            "type": "bar",
+            "score": 0.003386014389433023,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 200,
+            "type": "bar",
+            "score": 0.003386014389433023,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 201,
+            "type": "bar",
+            "score": 0.003386014389433023,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 202,
+            "type": "bar",
+            "score": 0.003386014389433023,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 203,
+            "type": "bar",
+            "score": 0.003386014389433023,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 204,
+            "type": "bar",
+            "score": 0.0033860143894330224,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 205,
+            "type": "bar",
+            "score": 0.0033860143894330224,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 206,
+            "type": "bar",
+            "score": 0.0033860143894330224,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 207,
+            "type": "bar",
+            "score": 0.0033860143894330224,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 208,
+            "type": "bar",
+            "score": 0.003386014389433022,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 209,
+            "type": "bar",
+            "score": 0.0033802426275064135,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 210,
+            "type": "bar",
+            "score": 0.0033802426275064135,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 211,
+            "type": "bar",
+            "score": 0.0033802426275064135,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 212,
+            "type": "bar",
+            "score": 0.0033802426275064135,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 213,
+            "type": "bar",
+            "score": 0.003366569175708169,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 214,
+            "type": "bar",
+            "score": 0.003366569175708169,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 215,
+            "type": "bar",
+            "score": 0.003366569175708169,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 216,
+            "type": "bar",
+            "score": 0.0033665691757081683,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 217,
+            "type": "bar",
+            "score": 0.0033665691757081683,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 218,
+            "type": "bar",
+            "score": 0.0033665691757081683,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 219,
+            "type": "bar",
+            "score": 0.0033665691757081683,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 220,
+            "type": "bar",
+            "score": 0.003366569175708168,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 221,
+            "type": "bar",
+            "score": 0.003366569175708168,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 222,
+            "type": "bar",
+            "score": 0.003366569175708168,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 223,
+            "type": "bar",
+            "score": 0.003366569175708168,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 224,
+            "type": "bar",
+            "score": 0.003366569175708168,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 225,
+            "type": "bar",
+            "score": 0.0033665691757081674,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 226,
+            "type": "bar",
+            "score": 0.0033665691757081674,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 227,
+            "type": "bar",
+            "score": 0.0033540126321766036,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 228,
+            "type": "bar",
+            "score": 0.0033540126321766027,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 229,
+            "type": "bar",
+            "score": 0.0033540126321766027,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 230,
+            "type": "bar",
+            "score": 0.0033540126321766027,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 231,
+            "type": "bar",
+            "score": 0.0033540126321766027,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 232,
+            "type": "bar",
+            "score": 0.0033540126321766023,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 233,
+            "type": "bar",
+            "score": 0.0033540126321766023,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 234,
+            "type": "bar",
+            "score": 0.0033540126321766023,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 235,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 236,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 237,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 238,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 239,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 240,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 241,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 242,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 243,
+            "type": "bar",
+            "score": 0.003354012632176602,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 244,
+            "type": "bar",
+            "score": 0.003354012632176601,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 245,
+            "type": "bar",
+            "score": 0.003354012632176601,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 246,
+            "type": "bar",
+            "score": 0.0033540126321766005,
+            "channels": {
+                "x": {
+                    "attr": "attacktype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 247,
+            "type": "bar",
+            "score": 0.0033540126321766005,
+            "channels": {
+                "x": {
+                    "attr": "weaptype3_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 248,
+            "type": "bar",
+            "score": 0.0033540126321766005,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 249,
+            "type": "bar",
+            "score": 0.0033540126321766,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 250,
+            "type": "bar",
+            "score": 0.0033540126321766,
+            "channels": {
+                "x": {
+                    "attr": "weapsubtype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 251,
+            "type": "bar",
+            "score": 0.0033540126321766,
+            "channels": {
+                "x": {
+                    "attr": "region_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 252,
+            "type": "bar",
+            "score": 0.0033540126321766,
+            "channels": {
+                "x": {
+                    "attr": "weaptype1_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 253,
+            "type": "bar",
+            "score": 0.0033540126321766,
+            "channels": {
+                "x": {
+                    "attr": "weaptype2_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 254,
+            "type": "bar",
+            "score": 0.0033540126321765966,
+            "channels": {
+                "x": {
+                    "attr": "claimmode_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 255,
+            "type": "bar",
+            "score": 0.003315252976608367,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 256,
+            "type": "bar",
+            "score": 0.0033152529766083665,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 257,
+            "type": "bar",
+            "score": 0.003300337860738637,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 258,
+            "type": "bar",
+            "score": 0.003300337860738637,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 259,
+            "type": "bar",
+            "score": 0.003300337860738637,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 260,
+            "type": "bar",
+            "score": 0.0033003378607386366,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 261,
+            "type": "bar",
+            "score": 0.0033001905276241286,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 262,
+            "type": "bar",
+            "score": 0.0033001905276241264,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 263,
+            "type": "bar",
+            "score": 0.0033001905276241264,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 264,
+            "type": "bar",
+            "score": 0.0033001905276241264,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 265,
+            "type": "bar",
+            "score": 0.0032824260325869745,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 266,
+            "type": "bar",
+            "score": 0.0032824260325869745,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 267,
+            "type": "bar",
+            "score": 0.0032824260325869745,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nhostkid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 268,
+            "type": "bar",
+            "score": 0.0032824260325869745,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ransompaid",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 269,
+            "type": "bar",
+            "score": 0.0032269342852370817,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 270,
+            "type": "bar",
+            "score": 0.0032269342852370817,
+            "channels": {
+                "x": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 271,
+            "type": "bar",
+            "score": 0.003218622351765748,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 272,
+            "type": "bar",
+            "score": 0.003218622351765747,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 273,
+            "type": "bar",
+            "score": 0.003218622351765747,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 274,
+            "type": "bar",
+            "score": 0.0032186223517657463,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "propextent_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 275,
+            "type": "bar",
+            "score": 0.0032119285695684126,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 276,
+            "type": "bar",
+            "score": 0.0032119285695684126,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 277,
+            "type": "bar",
+            "score": 0.0032119285695684126,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 278,
+            "type": "bar",
+            "score": 0.0032119285695684117,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 279,
+            "type": "bar",
+            "score": 0.0032005597887623713,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 280,
+            "type": "bar",
+            "score": 0.0032005597887623713,
+            "channels": {
+                "x": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 281,
+            "type": "bar",
+            "score": 0.0032005597887623713,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nkill",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 282,
+            "type": "bar",
+            "score": 0.0032005597887623713,
+            "channels": {
+                "x": {
+                    "attr": "alternative_txt",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "nwound",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "weaptype4_txt",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        }
+    ]
+}

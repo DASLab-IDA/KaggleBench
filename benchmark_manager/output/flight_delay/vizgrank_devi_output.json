@@ -1,0 +1,995 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "line",
+            "score": 0.021123033907974174,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "line",
+            "score": 0.021123033907974174,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "line",
+            "score": 0.021123033907974167,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "line",
+            "score": 0.021123033907974167,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "line",
+            "score": 0.02026357495940302,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "line",
+            "score": 0.02026357495940302,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "line",
+            "score": 0.02026357495940302,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "line",
+            "score": 0.02026357495940302,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.020227705880901337,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.02022770588090133,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.020227705880901326,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.020227705880901326,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.019468160903927775,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.019468160903927775,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.019468160903927747,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.019468160903927747,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "line",
+            "score": 0.019305255959860622,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "line",
+            "score": 0.019305255959860622,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "line",
+            "score": 0.019305255959860622,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "line",
+            "score": 0.019305255959860622,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "line",
+            "score": 0.0186936832248651,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "line",
+            "score": 0.018693683224865098,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "line",
+            "score": 0.018693683224865098,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "line",
+            "score": 0.01869368322486509,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "line",
+            "score": 0.01839833858115926,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "line",
+            "score": 0.018398338581159253,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "line",
+            "score": 0.018398338581159253,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "line",
+            "score": 0.018398338581159253,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.01787401638525036,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.017874016385250352,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.017874016385250345,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.01787401638525034,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "line",
+            "score": 0.017214655390403292,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DATE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "line",
+            "score": 0.01721465539040329,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "line",
+            "score": 0.016948036159629844,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "line",
+            "score": 0.016948036159629844,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "line",
+            "score": 0.016948036159629844,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "line",
+            "score": 0.016948036159629844,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.016575186156632213,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DATE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.01657518615663221,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.016037808553382243,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.016037808553382236,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.015275024193529229,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.015275024193529227,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "line",
+            "score": 0.015098034509878686,
+            "channels": {
+                "x": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "SCHEDULED_DEPARTURE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "line",
+            "score": 0.015098034509878686,
+            "channels": {
+                "x": {
+                    "attr": "DATE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DATE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.015066563637061726,
+            "channels": {
+                "x": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.015066563637061723,
+            "channels": {
+                "x": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.013879093796565182,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.013879093796565177,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.01201953998724853,
+            "channels": {
+                "x": {
+                    "attr": "AIRLINE",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AIRLINE",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "pie",
+            "score": 0.011169318273100316,
+            "channels": {
+                "x": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "pie",
+            "score": 0.011169318273100312,
+            "channels": {
+                "x": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "zero",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "scatter",
+            "score": 0.010312794882219934,
+            "channels": {
+                "x": {
+                    "attr": "TAXI_OUT",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "scatter",
+            "score": 0.009691878455711428,
+            "channels": {
+                "x": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "TAXI_IN",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "scatter",
+            "score": 0.009691878455711424,
+            "channels": {
+                "x": {
+                    "attr": "TAXI_OUT",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "scatter",
+            "score": 0.009691878455711424,
+            "channels": {
+                "x": {
+                    "attr": "TAXI_IN",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "scatter",
+            "score": 0.009691878455711391,
+            "channels": {
+                "x": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "TAXI_OUT",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "scatter",
+            "score": 0.00906155843469424,
+            "channels": {
+                "x": {
+                    "attr": "DEPARTURE_DELAY",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "ARRIVAL_DELAY",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,3218 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.008148653531737602,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "scatter",
+            "score": 0.00814865353173758,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "scatter",
+            "score": 0.008148653531737519,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "pie",
+            "score": 0.007475628672597365,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "race/ethnicity",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "pie",
+            "score": 0.00736672904061922,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gender",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "pie",
+            "score": 0.00736672904061922,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "lunch",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "pie",
+            "score": 0.00736672904061922,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "test preparation course",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "scatter",
+            "score": 0.0071813930127975194,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "scatter",
+            "score": 0.007181393012797519,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "scatter",
+            "score": 0.007181393012797519,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "scatter",
+            "score": 0.007152795394636718,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "scatter",
+            "score": 0.007152795394636717,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "scatter",
+            "score": 0.007152795394636711,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "scatter",
+            "score": 0.0070619033471433805,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "scatter",
+            "score": 0.007061903347143379,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "scatter",
+            "score": 0.007061903347143379,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "scatter",
+            "score": 0.007061903347143377,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "scatter",
+            "score": 0.007061903347143377,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "scatter",
+            "score": 0.007061903347143377,
+            "channels": {
+                "x": {
+                    "attr": "reading score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "scatter",
+            "score": 0.007061903347143375,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "scatter",
+            "score": 0.007061903347143375,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "scatter",
+            "score": 0.0070619033471433735,
+            "channels": {
+                "x": {
+                    "attr": "math score",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "pie",
+            "score": 0.0069575589539035585,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "pie",
+            "score": 0.006957558953903558,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "pie",
+            "score": 0.006957558953903558,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "pie",
+            "score": 0.006849536814789531,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "pie",
+            "score": 0.006849536814789531,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "pie",
+            "score": 0.00684953681478953,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "pie",
+            "score": 0.00684953681478953,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "pie",
+            "score": 0.006849536814789527,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "pie",
+            "score": 0.006849536814789527,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "pie",
+            "score": 0.006849536814789527,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "pie",
+            "score": 0.006849536814789527,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "pie",
+            "score": 0.006849536814789527,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.006573181281845866,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parental level of education",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.006535400007802988,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "race/ethnicity",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.006526465025241722,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parental level of education",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.006406432357647187,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parental level of education",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.006406432357647187,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parental level of education",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.006406432357647184,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parental level of education",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.006392924868660084,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "lunch",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.006392924868660082,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gender",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.006392924868660082,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "test preparation course",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.006374576695371397,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "race/ethnicity",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.006374576695371397,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "race/ethnicity",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.006374576695371393,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "race/ethnicity",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.0062361419275046605,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "test preparation course",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.0062361419275046605,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gender",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.006236141927504659,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "lunch",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.006236141927504659,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gender",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.006236141927504659,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "test preparation course",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.006236141927504659,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "lunch",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "bar",
+            "score": 0.006167147124547747,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "bar",
+            "score": 0.006167147124547747,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "bar",
+            "score": 0.006167147124547746,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "bar",
+            "score": 0.006158570118877859,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "bar",
+            "score": 0.006158570118877859,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "bar",
+            "score": 0.006158570118877859,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "bar",
+            "score": 0.006135939117995537,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.0061359391179955335,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "bar",
+            "score": 0.0061359391179955335,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.006073802737846732,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.0060738027378467304,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.006073802737846729,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.0060719975230476226,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.006071997523047622,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.006071997523047619,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.006040651928016796,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.0060406519280167955,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.0060406519280167955,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.006040651928016795,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.006040651928016794,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.006040651928016794,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.006040651928016794,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.006040651928016794,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.006040651928016794,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.006035611660897778,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.0060356116608977755,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.006035611660897772,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.0060135290917029596,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.0060135290917029596,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.006013529091702958,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.006013529091702958,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.006013529091702958,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.006013529091702957,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.006013529091702957,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.006013529091702957,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.006013529091702957,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.005997109597404127,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.005997109597404126,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.005997109597404126,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.005997109597404122,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.005997109597404122,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.005997109597404122,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.005997109597404121,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.005997109597404121,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.005997109597404121,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.00595402935094913,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.005954029350949127,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.005954029350949127,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.005954029350949127,
+            "channels": {
+                "x": {
+                    "attr": "parental level of education",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.0059216388647579995,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.005921638864757998,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.005921638864757998,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.005921638864757998,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.005921638864757998,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.005921638864757998,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.005921638864757995,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.005921638864757995,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.005921638864757995,
+            "channels": {
+                "x": {
+                    "attr": "race/ethnicity",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.005896715745172266,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.005896715745172266,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.005896715745172265,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.005896715745172263,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.005896715745172263,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.005896715745172263,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.005896715745172263,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.005896715745172261,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.005896715745172261,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.005878864290961999,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.005878864290961997,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.005878864290961997,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.005878864290961996,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.005878864290961996,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.005878864290961996,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.005878864290961995,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.005878864290961995,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.005878864290961993,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "math score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.005786915951943499,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "bar",
+            "score": 0.005786915951943498,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "bar",
+            "score": 0.005786915951943498,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "bar",
+            "score": 0.005786915951943498,
+            "channels": {
+                "x": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "bar",
+            "score": 0.005786915951943497,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "bar",
+            "score": 0.005786915951943497,
+            "channels": {
+                "x": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "writing score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "lunch",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "bar",
+            "score": 0.005786915951943497,
+            "channels": {
+                "x": {
+                    "attr": "gender",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "reading score",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "test preparation course",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        }
+    ]
+}

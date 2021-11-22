@@ -1,0 +1,4950 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.005539467084271594,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "pie",
+            "score": 0.005037861408264392,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "verification_status",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "pie",
+            "score": 0.005037861408264391,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "pie",
+            "score": 0.005037788310591765,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_condition",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "pie",
+            "score": 0.005019995233912974,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "term",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "pie",
+            "score": 0.0050199814229263924,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "pie",
+            "score": 0.005019981422926392,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "scatter",
+            "score": 0.004884496518883651,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "scatter",
+            "score": 0.004884496518883651,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "scatter",
+            "score": 0.004884433555922531,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "scatter",
+            "score": 0.004869267488214071,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "scatter",
+            "score": 0.004869255571910794,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "scatter",
+            "score": 0.004869255571910794,
+            "channels": {
+                "x": {
+                    "attr": "loan_amnt",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "pie",
+            "score": 0.004686464322990879,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "pie",
+            "score": 0.004686464322990878,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "pie",
+            "score": 0.004686464322990878,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "pie",
+            "score": 0.0046864643229908775,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "pie",
+            "score": 0.004686390890503747,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "pie",
+            "score": 0.004686390890503746,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "pie",
+            "score": 0.004668732365304723,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "pie",
+            "score": 0.004668732365304722,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "pie",
+            "score": 0.004668718479239399,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "pie",
+            "score": 0.004668718479239397,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "pie",
+            "score": 0.004668718479239397,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "pie",
+            "score": 0.004668718479239395,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.0043947686838661385,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.0043947686838661385,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.004375166925045409,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.004375166925045408,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.004375166925045408,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.004375166925045407,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.004375086284122001,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.004375086284121999,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.004375061216629096,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.004375045980905752,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.00437504598090575,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.004365363617907985,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.004355459406181006,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.004355459406181005,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.004355444170580126,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.004355444170580125,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.004355444170580125,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.004355444170580125,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.004341960362874733,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "grade",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.004341960362874733,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "purpose",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.004322111829760959,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.004322031190607569,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.004322031190607568,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "verification_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.004302404164090509,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "verification_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.004302404164090503,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.004302388928828128,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.0043023889288281245,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "bar",
+            "score": 0.0043023889288281245,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "bar",
+            "score": 0.0043023889288281245,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "bar",
+            "score": 0.0043023082903416365,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "bar",
+            "score": 0.004302308290341634,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "bar",
+            "score": 0.004296111212403574,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_condition",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "bar",
+            "score": 0.004296111212403568,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "term",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "bar",
+            "score": 0.0042826812092479636,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.004282681209247963,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "bar",
+            "score": 0.00427876655655629,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "region",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.004278766556556289,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "verification_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.004278670292490928,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_condition",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.004276448654939661,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.004276448654939661,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.004255237141743729,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "term",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.0042552189595111084,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "settlement_status",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.004255218959511108,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "income_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.004120236924860417,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.004120236924860416,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.004120236924860416,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.004120236924860415,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.004100973021343013,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.004100973021343013,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.004100973021343012,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.004100973021343012,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.004100973021343012,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.004100973021343012,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.004100973021343012,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.004100973021343011,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.004100893094634456,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.004100893094634456,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.004100893094634456,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.004100893094634456,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.004100868874998894,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.0041008688749988925,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.004100853733288512,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.004100853733288512,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.004100853733288512,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.004100853733288512,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.0040816049234583115,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.0040816049234583115,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.004081604923458311,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.004081604923458311,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.004081589781860879,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.004081589781860878,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.004081589781860878,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.004081589781860877,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.004081589781860877,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.004081589781860877,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.004081589781860877,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.0040815897818608764,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.004080732303456298,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.004080732303456297,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.004080732303456297,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.004080732303456297,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.004065941161914257,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.004065941161914256,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.004061464858521856,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.004061464858521855,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.004061464858521855,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.004061464858521854,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.004061464858521854,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.004061464858521854,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.004061464858521854,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.004061464858521853,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.004061384616340541,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.00406138461634054,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.00406138461634054,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.00406138461634054,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.004061359423001642,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.0040613594230016386,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.004061344249456142,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.00406134424945614,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.004061344249456139,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.004061344249456139,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.004050091318567832,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.004050091318567832,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.004050011393484656,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.004050011393484656,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.004050011393484656,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.0040500113934846555,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.004043160559721394,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.004043160559721394,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.004043160559721393,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.00404316055972139,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.0040420919297809235,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.0040420919297809235,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.004042091929780923,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.004042091929780923,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.004042076756348827,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.004042076756348825,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.004042076756348825,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.004042076756348825,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.004042076756348825,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.004042076756348823,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.004042076756348823,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "bar",
+            "score": 0.004042076756348823,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.0040307230846922575,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.0040307230846922575,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "bar",
+            "score": 0.004030723084692257,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "bar",
+            "score": 0.004030723084692257,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "bar",
+            "score": 0.004030707943405829,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.004030707943405829,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "bar",
+            "score": 0.004030707943405829,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "bar",
+            "score": 0.004030707943405828,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "bar",
+            "score": 0.004030707943405828,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "bar",
+            "score": 0.004030707943405826,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "bar",
+            "score": 0.004030707943405826,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "bar",
+            "score": 0.004030707943405826,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 161,
+            "type": "bar",
+            "score": 0.004030628018937563,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 162,
+            "type": "bar",
+            "score": 0.004030628018937563,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 163,
+            "type": "bar",
+            "score": 0.004030628018937562,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 164,
+            "type": "bar",
+            "score": 0.00403062801893756,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 165,
+            "type": "bar",
+            "score": 0.0040250236254049995,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 166,
+            "type": "bar",
+            "score": 0.0040250236254049995,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 167,
+            "type": "bar",
+            "score": 0.004025023625404999,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 168,
+            "type": "bar",
+            "score": 0.004025023625404999,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 169,
+            "type": "bar",
+            "score": 0.004022292558431243,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 170,
+            "type": "bar",
+            "score": 0.00402229255843124,
+            "channels": {
+                "x": {
+                    "attr": "loan_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 171,
+            "type": "bar",
+            "score": 0.004011339659357209,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 172,
+            "type": "bar",
+            "score": 0.004011339659357209,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 173,
+            "type": "bar",
+            "score": 0.004011339659357208,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 174,
+            "type": "bar",
+            "score": 0.004011339659357206,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 175,
+            "type": "bar",
+            "score": 0.004008902740226147,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 176,
+            "type": "bar",
+            "score": 0.004008902740226147,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 177,
+            "type": "bar",
+            "score": 0.004008822499686001,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 178,
+            "type": "bar",
+            "score": 0.004008822499686001,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 179,
+            "type": "bar",
+            "score": 0.004008822499686001,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 180,
+            "type": "bar",
+            "score": 0.0040088224996860005,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 181,
+            "type": "bar",
+            "score": 0.004005700367286012,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 182,
+            "type": "bar",
+            "score": 0.004005700367286012,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 183,
+            "type": "bar",
+            "score": 0.004005700367286012,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 184,
+            "type": "bar",
+            "score": 0.004005700367286012,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 185,
+            "type": "bar",
+            "score": 0.003999507199276234,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 186,
+            "type": "bar",
+            "score": 0.003999507199276234,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 187,
+            "type": "bar",
+            "score": 0.003999507199276232,
+            "channels": {
+                "x": {
+                    "attr": "grade",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 188,
+            "type": "bar",
+            "score": 0.0039995071992762294,
+            "channels": {
+                "x": {
+                    "attr": "purpose",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 189,
+            "type": "bar",
+            "score": 0.003989529673958687,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 190,
+            "type": "bar",
+            "score": 0.003989529673958686,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 191,
+            "type": "bar",
+            "score": 0.003989529673958684,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 192,
+            "type": "bar",
+            "score": 0.003989529673958684,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 193,
+            "type": "bar",
+            "score": 0.003989514500840531,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 194,
+            "type": "bar",
+            "score": 0.00398951450084053,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 195,
+            "type": "bar",
+            "score": 0.00398951450084053,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 196,
+            "type": "bar",
+            "score": 0.00398951450084053,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 197,
+            "type": "bar",
+            "score": 0.00398951450084053,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 198,
+            "type": "bar",
+            "score": 0.003989514500840529,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 199,
+            "type": "bar",
+            "score": 0.003989514500840529,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 200,
+            "type": "bar",
+            "score": 0.0039895145008405275,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 201,
+            "type": "bar",
+            "score": 0.003989434260918083,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 202,
+            "type": "bar",
+            "score": 0.003989434260918083,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 203,
+            "type": "bar",
+            "score": 0.003989434260918083,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 204,
+            "type": "bar",
+            "score": 0.003989434260918082,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 205,
+            "type": "bar",
+            "score": 0.003983828202145334,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 206,
+            "type": "bar",
+            "score": 0.003983828202145334,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 207,
+            "type": "bar",
+            "score": 0.003983828202145334,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 208,
+            "type": "bar",
+            "score": 0.003983828202145333,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 209,
+            "type": "bar",
+            "score": 0.0039833568861892465,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 210,
+            "type": "bar",
+            "score": 0.003983356886189245,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 211,
+            "type": "bar",
+            "score": 0.003983356886189245,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 212,
+            "type": "bar",
+            "score": 0.003983356886189245,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 213,
+            "type": "bar",
+            "score": 0.003983262241948659,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 214,
+            "type": "bar",
+            "score": 0.003983262241948659,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 215,
+            "type": "bar",
+            "score": 0.003970141384105978,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 216,
+            "type": "bar",
+            "score": 0.003970141384105978,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 217,
+            "type": "bar",
+            "score": 0.003970141384105977,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 218,
+            "type": "bar",
+            "score": 0.003970141384105976,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 219,
+            "type": "bar",
+            "score": 0.003964500345375865,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 220,
+            "type": "bar",
+            "score": 0.003964500345375865,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 221,
+            "type": "bar",
+            "score": 0.0039645003453758635,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 222,
+            "type": "bar",
+            "score": 0.0039645003453758635,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 223,
+            "type": "bar",
+            "score": 0.003960453099762159,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 224,
+            "type": "bar",
+            "score": 0.003960453099762157,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 225,
+            "type": "bar",
+            "score": 0.003960435166928866,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 226,
+            "type": "bar",
+            "score": 0.003960435166928866,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 227,
+            "type": "bar",
+            "score": 0.003960435166928866,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 228,
+            "type": "bar",
+            "score": 0.003960435166928861,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 229,
+            "type": "bar",
+            "score": 0.003937457015503812,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 230,
+            "type": "bar",
+            "score": 0.00393745701550381,
+            "channels": {
+                "x": {
+                    "attr": "verification_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 231,
+            "type": "bar",
+            "score": 0.00393745701550381,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 232,
+            "type": "bar",
+            "score": 0.003937457015503809,
+            "channels": {
+                "x": {
+                    "attr": "region",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 233,
+            "type": "bar",
+            "score": 0.003937361945422185,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 234,
+            "type": "bar",
+            "score": 0.0039373619454221844,
+            "channels": {
+                "x": {
+                    "attr": "loan_condition",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 235,
+            "type": "bar",
+            "score": 0.003914546743038489,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 236,
+            "type": "bar",
+            "score": 0.003914546743038487,
+            "channels": {
+                "x": {
+                    "attr": "term",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 237,
+            "type": "bar",
+            "score": 0.003914528767188435,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 238,
+            "type": "bar",
+            "score": 0.003914528767188434,
+            "channels": {
+                "x": {
+                    "attr": "settlement_status",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 239,
+            "type": "bar",
+            "score": 0.003914528767188433,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "int_rate",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 240,
+            "type": "bar",
+            "score": 0.00391452876718843,
+            "channels": {
+                "x": {
+                    "attr": "income_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "loan_amnt",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        }
+    ]
+}

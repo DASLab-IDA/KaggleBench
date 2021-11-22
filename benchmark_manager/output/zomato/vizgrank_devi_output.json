@@ -1,0 +1,856 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.026862187045875688,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.026862187045875688,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.026862187045875688,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.026862187045875688,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.02607086097097882,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.02607086097097882,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.02607086097097882,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.026070860970978812,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.02499729655579655,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.02499729655579655,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.024997296555796546,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.024997296555796543,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.02473415909242556,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.02473415909242556,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.02473415909242556,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.02473415909242556,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.02429035047991495,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.02429035047991495,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.024290350479914947,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.024290350479914943,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.024131112645414246,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "book_table",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.024131112645414246,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "online_order",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.023901369312017657,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.023901369312017647,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.023901369312017647,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.023901369312017647,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.02284038480204171,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.02284038480204171,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.02222237138986458,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "listed_in(type)",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.022222371389864576,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "listed_in(type)",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.022120656052646313,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.022120656052646313,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.021682605011555195,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "book_table",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.021682605011555185,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "online_order",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.019752410783642173,
+            "channels": {
+                "x": {
+                    "attr": "listed_in(type)",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "listed_in(type)",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "pie",
+            "score": 0.018966891616412164,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "pie",
+            "score": 0.018966891616412157,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "pie",
+            "score": 0.018966891616412157,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "votes",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "pie",
+            "score": 0.018966891616412157,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "scatter",
+            "score": 0.017166163006700715,
+            "channels": {
+                "x": {
+                    "attr": "votes",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "scatter",
+            "score": 0.017166163006700715,
+            "channels": {
+                "x": {
+                    "attr": "votes",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "pie",
+            "score": 0.015755566071942728,
+            "channels": {
+                "x": {
+                    "attr": "book_table",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "book_table",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "pie",
+            "score": 0.015755566071942693,
+            "channels": {
+                "x": {
+                    "attr": "online_order",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "online_order",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "scatter",
+            "score": 0.009117410962341255,
+            "channels": {
+                "x": {
+                    "attr": "votes",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "approx_cost(for two people)",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

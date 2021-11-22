@@ -1,0 +1,323 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.06616818532268832,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.06616818532268831,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.06609825437298528,
+            "channels": {
+                "x": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.064806208131668,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.06480620813166792,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.0644449247749124,
+            "channels": {
+                "x": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.06014547979349465,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "CASE_STATUS",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.06014547979349461,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "YEAR",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.059646400535837224,
+            "channels": {
+                "x": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.059046819906650075,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.05904681990665004,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.05780711614489118,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.05780711614489117,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.052188776589982167,
+            "channels": {
+                "x": {
+                    "attr": "CASE_STATUS",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "CASE_STATUS",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.05218877658998215,
+            "channels": {
+                "x": {
+                    "attr": "YEAR",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "YEAR",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "pie",
+            "score": 0.04817660468531345,
+            "channels": {
+                "x": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "PREVAILING_WAGE",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "pie",
+            "score": 0.041308643852203085,
+            "channels": {
+                "x": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "FULL_TIME_POSITION",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        }
+    ]
+}

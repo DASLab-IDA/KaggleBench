@@ -1,0 +1,6710 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.0036109164323183426,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.0036109164323183426,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.0036109164323183426,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.0036109164323183418,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.003610916432318341,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.003610916432318341,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.003610916432318341,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.003584022399798204,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.003584022399798204,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.0035840223997982024,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.0035840223997982024,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.003584022399798202,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.003584022399798202,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.003584022399798202,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.003584022399798201,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.003584022399798201,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.003584022399798201,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.003584022399798201,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.003584022399798201,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.0035840223997982003,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.0035840223997982003,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.0035803392132771343,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.0035803392132771343,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.0035803392132771335,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.0035803392132771317,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.0035803392132771317,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.0035803392132771317,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.0035803392132771317,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.0035585330745857816,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.0035585330745857816,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.0035585330745857807,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.00355853307458578,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.00355853307458578,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "bar",
+            "score": 0.00355853307458578,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "bar",
+            "score": 0.00355853307458578,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "bar",
+            "score": 0.003558533074585779,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "bar",
+            "score": 0.003558533074585779,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "bar",
+            "score": 0.0035286458399512275,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "bar",
+            "score": 0.003528645839951226,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "bar",
+            "score": 0.003528645839951226,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.003528645839951226,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "bar",
+            "score": 0.0035286458399512244,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "bar",
+            "score": 0.0035286458399512244,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "bar",
+            "score": 0.0035286458399512183,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.0034976044597289473,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.0034976044597289473,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.0034976044597289473,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.0034976044597289464,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.0034976044597289464,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.0034976044597289464,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.0034976044597289447,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.003359088617623722,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.003359088617623722,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.00335908861762372,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.0033590886176237196,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.003359088617623719,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.003359088617623719,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.0033590886176237188,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.0033225001501174965,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.003322500150117496,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.0033225001501174943,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.003322500150117494,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.0033225001501174935,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.0033225001501174935,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.0033225001501174935,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.0033176979966631436,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "bar",
+            "score": 0.0033176979966631436,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "bar",
+            "score": 0.0033176979966631436,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "bar",
+            "score": 0.0033176979966631436,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "bar",
+            "score": 0.0033176979966631436,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "bar",
+            "score": 0.003317697996663143,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "bar",
+            "score": 0.0033176979966631427,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "bar",
+            "score": 0.0032895821912228922,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "bar",
+            "score": 0.003289582191222892,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "bar",
+            "score": 0.0032895821912228914,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "bar",
+            "score": 0.0032895821912228914,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "bar",
+            "score": 0.00328958219122289,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "bar",
+            "score": 0.00328958219122289,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "bar",
+            "score": 0.00328958219122289,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "bar",
+            "score": 0.0032388417116543024,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "bar",
+            "score": 0.0032388417116543024,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "bar",
+            "score": 0.0032355667382391665,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "bar",
+            "score": 0.0032355667382391656,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "bar",
+            "score": 0.0032355667382391656,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "bar",
+            "score": 0.0032355667382391647,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "bar",
+            "score": 0.003235566738239164,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "bar",
+            "score": 0.003235566738239164,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.003235566738239164,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.0032355667382391634,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "bar",
+            "score": 0.0032355667382391634,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "bar",
+            "score": 0.0032355667382391634,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "bar",
+            "score": 0.0032355667382391634,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "bar",
+            "score": 0.003235566738239163,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "bar",
+            "score": 0.003235566738239163,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "bar",
+            "score": 0.003235566738239162,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "bar",
+            "score": 0.0032097537245942744,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "bar",
+            "score": 0.0032097537245942744,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "bar",
+            "score": 0.0032045019603287655,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "bar",
+            "score": 0.0032045019603287655,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "bar",
+            "score": 0.0032045019603287647,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 120,
+            "type": "bar",
+            "score": 0.0032045019603287625,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 121,
+            "type": "bar",
+            "score": 0.0032045019603287625,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 122,
+            "type": "bar",
+            "score": 0.0032045019603287625,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 123,
+            "type": "bar",
+            "score": 0.0032045019603287625,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 124,
+            "type": "bar",
+            "score": 0.0032045019603287625,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 125,
+            "type": "bar",
+            "score": 0.003204501960328762,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 126,
+            "type": "bar",
+            "score": 0.0032045019603287616,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 127,
+            "type": "bar",
+            "score": 0.0032045019603287616,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 128,
+            "type": "bar",
+            "score": 0.0032045019603287616,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 129,
+            "type": "bar",
+            "score": 0.0032045019603287616,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 130,
+            "type": "bar",
+            "score": 0.003204501960328761,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 131,
+            "type": "bar",
+            "score": 0.003200347525592735,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 132,
+            "type": "bar",
+            "score": 0.003200347525592735,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 133,
+            "type": "bar",
+            "score": 0.003200347525592735,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 134,
+            "type": "bar",
+            "score": 0.0032003475255927344,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 135,
+            "type": "bar",
+            "score": 0.003200347525592734,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 136,
+            "type": "bar",
+            "score": 0.003200347525592733,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 137,
+            "type": "bar",
+            "score": 0.003200347525592733,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 138,
+            "type": "bar",
+            "score": 0.003200347525592733,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 139,
+            "type": "bar",
+            "score": 0.0032003475255927326,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 140,
+            "type": "bar",
+            "score": 0.0032003475255927326,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 141,
+            "type": "bar",
+            "score": 0.003200347525592732,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 142,
+            "type": "bar",
+            "score": 0.003200347525592732,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 143,
+            "type": "bar",
+            "score": 0.0032003475255927318,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 144,
+            "type": "bar",
+            "score": 0.0032003475255927318,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 145,
+            "type": "bar",
+            "score": 0.0031757445051983687,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 146,
+            "type": "bar",
+            "score": 0.0031757445051983687,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 147,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 148,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 149,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 150,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 151,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 152,
+            "type": "bar",
+            "score": 0.003175744505198368,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 153,
+            "type": "bar",
+            "score": 0.0031757445051983674,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 154,
+            "type": "bar",
+            "score": 0.0031757445051983674,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 155,
+            "type": "bar",
+            "score": 0.0031757445051983674,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 156,
+            "type": "bar",
+            "score": 0.0031757445051983674,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 157,
+            "type": "bar",
+            "score": 0.003175744505198367,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 158,
+            "type": "bar",
+            "score": 0.0031757445051983657,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 159,
+            "type": "bar",
+            "score": 0.0031217889144091637,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "state",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 160,
+            "type": "bar",
+            "score": 0.002981506352676302,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 161,
+            "type": "bar",
+            "score": 0.002981506352676302,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 162,
+            "type": "bar",
+            "score": 0.0029815063526763014,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 163,
+            "type": "bar",
+            "score": 0.0029815063526763014,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 164,
+            "type": "bar",
+            "score": 0.0029815063526763014,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 165,
+            "type": "bar",
+            "score": 0.002981506352676301,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 166,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 167,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 168,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 169,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 170,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 171,
+            "type": "bar",
+            "score": 0.0029815063526763006,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 172,
+            "type": "bar",
+            "score": 0.0029815063526763,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 173,
+            "type": "bar",
+            "score": 0.0029815063526762975,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 174,
+            "type": "bar",
+            "score": 0.0029533593203595193,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 175,
+            "type": "bar",
+            "score": 0.002953359320359518,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 176,
+            "type": "bar",
+            "score": 0.0029533593203595176,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 177,
+            "type": "bar",
+            "score": 0.002953359320359517,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 178,
+            "type": "bar",
+            "score": 0.0029533593203595154,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 179,
+            "type": "bar",
+            "score": 0.0029533593203595154,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 180,
+            "type": "bar",
+            "score": 0.0029533593203595154,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 181,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 182,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 183,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 184,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 185,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 186,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 187,
+            "type": "bar",
+            "score": 0.002953359320359515,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 188,
+            "type": "bar",
+            "score": 0.002903436350313861,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "product_type",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 189,
+            "type": "line",
+            "score": 0.002882451950763976,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 190,
+            "type": "line",
+            "score": 0.002882451950763975,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 191,
+            "type": "line",
+            "score": 0.002882451950763975,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 192,
+            "type": "line",
+            "score": 0.0028824519507639748,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 193,
+            "type": "line",
+            "score": 0.0028824519507639743,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 194,
+            "type": "line",
+            "score": 0.0028824519507639743,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 195,
+            "type": "line",
+            "score": 0.0028824519507639717,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 196,
+            "type": "bar",
+            "score": 0.0028641401643507976,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "state",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 197,
+            "type": "line",
+            "score": 0.002851348212610195,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 198,
+            "type": "line",
+            "score": 0.002851348212610194,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 199,
+            "type": "line",
+            "score": 0.002851348212610193,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 200,
+            "type": "line",
+            "score": 0.002851348212610193,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 201,
+            "type": "line",
+            "score": 0.002851348212610193,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 202,
+            "type": "line",
+            "score": 0.0028513482126101925,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 203,
+            "type": "line",
+            "score": 0.0028513482126101925,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 204,
+            "type": "line",
+            "score": 0.002847195971865989,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 205,
+            "type": "line",
+            "score": 0.002847195971865989,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 206,
+            "type": "line",
+            "score": 0.002847195971865989,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 207,
+            "type": "line",
+            "score": 0.002847195971865989,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 208,
+            "type": "line",
+            "score": 0.0028471959718659886,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 209,
+            "type": "line",
+            "score": 0.0028471959718659886,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 210,
+            "type": "line",
+            "score": 0.002847195971865988,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 211,
+            "type": "line",
+            "score": 0.0028225569295151696,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 212,
+            "type": "line",
+            "score": 0.002822556929515168,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 213,
+            "type": "line",
+            "score": 0.002822556929515168,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 214,
+            "type": "line",
+            "score": 0.0028225569295151675,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 215,
+            "type": "line",
+            "score": 0.0028225569295151675,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 216,
+            "type": "line",
+            "score": 0.002822556929515167,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 217,
+            "type": "line",
+            "score": 0.002822556929515166,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 218,
+            "type": "bar",
+            "score": 0.0028216004953442236,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "material",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 219,
+            "type": "bar",
+            "score": 0.002821600495344223,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "num_room",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 220,
+            "type": "bar",
+            "score": 0.002788144053632955,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "material",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 221,
+            "type": "bar",
+            "score": 0.0027881440536329546,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "num_room",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 222,
+            "type": "line",
+            "score": 0.002620722016473039,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 223,
+            "type": "line",
+            "score": 0.0026207220164730385,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 224,
+            "type": "line",
+            "score": 0.002620722016473038,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 225,
+            "type": "line",
+            "score": 0.002620722016473038,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 226,
+            "type": "line",
+            "score": 0.0026207220164730376,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 227,
+            "type": "line",
+            "score": 0.002620722016473037,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 228,
+            "type": "line",
+            "score": 0.002620722016473037,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 229,
+            "type": "bar",
+            "score": 0.0025925411703962074,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 230,
+            "type": "bar",
+            "score": 0.002592541170396207,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 231,
+            "type": "bar",
+            "score": 0.002592541170396206,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 232,
+            "type": "bar",
+            "score": 0.002592541170396206,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 233,
+            "type": "bar",
+            "score": 0.002592541170396206,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 234,
+            "type": "bar",
+            "score": 0.002592541170396206,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 235,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 236,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 237,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 238,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 239,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 240,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 241,
+            "type": "bar",
+            "score": 0.0025925411703962057,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 242,
+            "type": "bar",
+            "score": 0.002592541170396205,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 243,
+            "type": "line",
+            "score": 0.002592532432908709,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 244,
+            "type": "line",
+            "score": 0.002592532432908709,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 245,
+            "type": "line",
+            "score": 0.0025925324329087074,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 246,
+            "type": "line",
+            "score": 0.0025925324329087065,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 247,
+            "type": "line",
+            "score": 0.0025925324329087065,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 248,
+            "type": "line",
+            "score": 0.002592532432908706,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 249,
+            "type": "line",
+            "score": 0.002592532432908706,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 250,
+            "type": "bar",
+            "score": 0.002570236715571721,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 251,
+            "type": "bar",
+            "score": 0.002570236715571721,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 252,
+            "type": "bar",
+            "score": 0.002570236715571721,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 253,
+            "type": "bar",
+            "score": 0.0025702367155717204,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 254,
+            "type": "bar",
+            "score": 0.0025702367155717204,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 255,
+            "type": "bar",
+            "score": 0.0025702367155717204,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 256,
+            "type": "bar",
+            "score": 0.002570236715571719,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 257,
+            "type": "bar",
+            "score": 0.002570236715571719,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 258,
+            "type": "bar",
+            "score": 0.0025702367155717187,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 259,
+            "type": "bar",
+            "score": 0.0025702367155717182,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 260,
+            "type": "bar",
+            "score": 0.0025702367155717182,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 261,
+            "type": "bar",
+            "score": 0.0025702367155717182,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 262,
+            "type": "bar",
+            "score": 0.002570236715571718,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 263,
+            "type": "bar",
+            "score": 0.002570236715571718,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 264,
+            "type": "scatter",
+            "score": 0.0025531283370369678,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 265,
+            "type": "scatter",
+            "score": 0.0025531283370369673,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 266,
+            "type": "scatter",
+            "score": 0.002553128337036967,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 267,
+            "type": "scatter",
+            "score": 0.0025531283370369665,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 268,
+            "type": "scatter",
+            "score": 0.0025531283370369665,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 269,
+            "type": "scatter",
+            "score": 0.0025531283370369665,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 270,
+            "type": "scatter",
+            "score": 0.0025531283370369665,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 271,
+            "type": "scatter",
+            "score": 0.002553128337036966,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 272,
+            "type": "scatter",
+            "score": 0.002553128337036966,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 273,
+            "type": "scatter",
+            "score": 0.0025531283370369656,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 274,
+            "type": "scatter",
+            "score": 0.002553128337036965,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 275,
+            "type": "scatter",
+            "score": 0.0025531283370369647,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 276,
+            "type": "scatter",
+            "score": 0.0025531283370369647,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 277,
+            "type": "scatter",
+            "score": 0.002553128337036964,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 278,
+            "type": "scatter",
+            "score": 0.002553128337036964,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 279,
+            "type": "scatter",
+            "score": 0.002553128337036964,
+            "channels": {
+                "x": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 280,
+            "type": "scatter",
+            "score": 0.0025531283370369634,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 281,
+            "type": "scatter",
+            "score": 0.0025531283370369634,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 282,
+            "type": "scatter",
+            "score": 0.0025531283370369634,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 283,
+            "type": "scatter",
+            "score": 0.002553128337036963,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 284,
+            "type": "scatter",
+            "score": 0.002553128337036962,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 285,
+            "type": "scatter",
+            "score": 0.002523474775728771,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 286,
+            "type": "scatter",
+            "score": 0.00252347477572877,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 287,
+            "type": "scatter",
+            "score": 0.00252347477572877,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 288,
+            "type": "scatter",
+            "score": 0.00252347477572877,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 289,
+            "type": "scatter",
+            "score": 0.00252347477572877,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 290,
+            "type": "scatter",
+            "score": 0.0025234747757287694,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 291,
+            "type": "scatter",
+            "score": 0.0025234747757287685,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 292,
+            "type": "scatter",
+            "score": 0.0025234747757287685,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 293,
+            "type": "scatter",
+            "score": 0.002523474775728768,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 294,
+            "type": "scatter",
+            "score": 0.002523474775728768,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 295,
+            "type": "scatter",
+            "score": 0.0025234747757287676,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 296,
+            "type": "scatter",
+            "score": 0.0025234747757287676,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 297,
+            "type": "scatter",
+            "score": 0.002523474775728767,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 298,
+            "type": "scatter",
+            "score": 0.0025234747757287668,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 299,
+            "type": "scatter",
+            "score": 0.0025234747757287668,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 300,
+            "type": "scatter",
+            "score": 0.0025234747757287668,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 301,
+            "type": "scatter",
+            "score": 0.0025234747757287668,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 302,
+            "type": "scatter",
+            "score": 0.0025234747757287663,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 303,
+            "type": "scatter",
+            "score": 0.0025234747757287663,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 304,
+            "type": "scatter",
+            "score": 0.0025234747757287663,
+            "channels": {
+                "x": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 305,
+            "type": "scatter",
+            "score": 0.002523474775728765,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 306,
+            "type": "bar",
+            "score": 0.0025180011820974944,
+            "channels": {
+                "x": {
+                    "attr": "material",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "material",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 307,
+            "type": "bar",
+            "score": 0.0025180011820974944,
+            "channels": {
+                "x": {
+                    "attr": "num_room",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "num_room",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 308,
+            "type": "line",
+            "score": 0.0024627338403516623,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 309,
+            "type": "pie",
+            "score": 0.0024581915924704856,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 310,
+            "type": "pie",
+            "score": 0.002458191592470485,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "full_sq",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 311,
+            "type": "pie",
+            "score": 0.0024581915924704843,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 312,
+            "type": "pie",
+            "score": 0.0024581915924704835,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 313,
+            "type": "pie",
+            "score": 0.0024581915924704835,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 314,
+            "type": "pie",
+            "score": 0.0024581915924704835,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 315,
+            "type": "pie",
+            "score": 0.002458191592470483,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 316,
+            "type": "line",
+            "score": 0.0024292301030847505,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 317,
+            "type": "line",
+            "score": 0.0021524900436532663,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 318,
+            "type": "bar",
+            "score": 0.002124268088588208,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 319,
+            "type": "bar",
+            "score": 0.002124268088588208,
+            "channels": {
+                "x": {
+                    "attr": "timestamp",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "timestamp",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 320,
+            "type": "pie",
+            "score": 0.0019835176125337474,
+            "channels": {
+                "x": {
+                    "attr": "product_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "product_type",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 321,
+            "type": "scatter",
+            "score": 0.001470254040057307,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 322,
+            "type": "scatter",
+            "score": 0.0014702540400573,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 323,
+            "type": "scatter",
+            "score": 0.0014702540400572998,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 324,
+            "type": "scatter",
+            "score": 0.001470254040057299,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 325,
+            "type": "scatter",
+            "score": 0.001470254040057299,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 326,
+            "type": "scatter",
+            "score": 0.0014702540400572989,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 327,
+            "type": "scatter",
+            "score": 0.0014702540400572989,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 328,
+            "type": "scatter",
+            "score": 0.0014702540400572987,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 329,
+            "type": "scatter",
+            "score": 0.0014702540400572976,
+            "channels": {
+                "x": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 330,
+            "type": "scatter",
+            "score": 0.0014702540400572974,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 331,
+            "type": "scatter",
+            "score": 0.0014702540400572972,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 332,
+            "type": "scatter",
+            "score": 0.0014702540400572972,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 333,
+            "type": "scatter",
+            "score": 0.001470254040057297,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 334,
+            "type": "scatter",
+            "score": 0.001470254040057297,
+            "channels": {
+                "x": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 335,
+            "type": "scatter",
+            "score": 0.001470254040057297,
+            "channels": {
+                "x": {
+                    "attr": "park_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 336,
+            "type": "scatter",
+            "score": 0.0014702540400572967,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 337,
+            "type": "scatter",
+            "score": 0.0014702540400572967,
+            "channels": {
+                "x": {
+                    "attr": "kremlin_km",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 338,
+            "type": "scatter",
+            "score": 0.0014702540400572965,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "price_doc",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 339,
+            "type": "scatter",
+            "score": 0.0014702540400572959,
+            "channels": {
+                "x": {
+                    "attr": "sport_objects_raion",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 340,
+            "type": "scatter",
+            "score": 0.0014702540400572913,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "culture_objects_top_25_raion",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 341,
+            "type": "scatter",
+            "score": 0.001470254040057278,
+            "channels": {
+                "x": {
+                    "attr": "full_sq",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "life_sq",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

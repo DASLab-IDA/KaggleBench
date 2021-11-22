@@ -1,0 +1,2257 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.010675876081183177,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.010675876081183177,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.010675876081183177,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.010675876081183177,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.010675876081183177,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.010675876081183174,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.010675876081183174,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.010675876081183174,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.010675876081183174,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.010675876081183174,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "line",
+            "score": 0.010439191782373904,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "line",
+            "score": 0.010439191782373902,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "line",
+            "score": 0.010439191782373902,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "line",
+            "score": 0.010439191782373902,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "line",
+            "score": 0.010439191782373902,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "line",
+            "score": 0.010439191782373902,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "line",
+            "score": 0.0104391917823739,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "line",
+            "score": 0.010439191782373899,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "line",
+            "score": 0.010439191782373899,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "line",
+            "score": 0.010439191782373897,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "line",
+            "score": 0.00994615535595916,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "line",
+            "score": 0.009946155355959156,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "line",
+            "score": 0.009946155355959156,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "line",
+            "score": 0.009946155355959154,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "line",
+            "score": 0.009946155355959154,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "line",
+            "score": 0.009946155355959154,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "line",
+            "score": 0.009946155355959153,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "line",
+            "score": 0.009946155355959153,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "line",
+            "score": 0.009946155355959153,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "line",
+            "score": 0.009946155355959153,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.00955233262169688,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "line",
+            "score": 0.009319193187510863,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.009074922293749196,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.009074922293749196,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.009074922293749194,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.009074922293749194,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.009074922293749194,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.00907492229374919,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.009074922293749186,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.009074922293749186,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.009074922293749184,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.009074922293749184,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.009063313422892592,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.009063313422892592,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.009063313422892592,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.009063313422892592,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.009063313422892582,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "line",
+            "score": 0.008731309547460127,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "line",
+            "score": 0.008731309547460127,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "line",
+            "score": 0.008731309547460125,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "line",
+            "score": 0.008731309547460124,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "line",
+            "score": 0.008731309547460124,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "line",
+            "score": 0.008731309547460122,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "line",
+            "score": 0.008731309547460122,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "line",
+            "score": 0.008731309547460122,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "line",
+            "score": 0.008731309547460122,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "line",
+            "score": 0.008731309547460115,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "line",
+            "score": 0.008708776445735533,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "bar",
+            "score": 0.007819168242230319,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "main_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "bar",
+            "score": 0.007768618293599375,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "bar",
+            "score": 0.007768618293599373,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.007768618293599373,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.007768618293599373,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.007768618293599373,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "bar",
+            "score": 0.007768618293599371,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "bar",
+            "score": 0.007768618293599371,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "bar",
+            "score": 0.007768618293599371,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "bar",
+            "score": 0.00776861829359937,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "bar",
+            "score": 0.007768618293599368,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "bar",
+            "score": 0.0077209516401204065,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "bar",
+            "score": 0.007720951640120405,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "bar",
+            "score": 0.007720951640120405,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "bar",
+            "score": 0.007720951640120405,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "bar",
+            "score": 0.007720951640120404,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "bar",
+            "score": 0.007720951640120404,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "bar",
+            "score": 0.007720951640120404,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 82,
+            "type": "bar",
+            "score": 0.007720951640120404,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 83,
+            "type": "bar",
+            "score": 0.007720951640120404,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 84,
+            "type": "bar",
+            "score": 0.0077209516401204,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 85,
+            "type": "bar",
+            "score": 0.007691951132589936,
+            "channels": {
+                "x": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "state",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 86,
+            "type": "scatter",
+            "score": 0.007615885494580908,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 87,
+            "type": "scatter",
+            "score": 0.007615885494580905,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 88,
+            "type": "scatter",
+            "score": 0.007615885494580904,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 89,
+            "type": "scatter",
+            "score": 0.007615885494580904,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 90,
+            "type": "scatter",
+            "score": 0.0076158854945809,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 91,
+            "type": "scatter",
+            "score": 0.0076158854945809,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 92,
+            "type": "scatter",
+            "score": 0.0076158854945809,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 93,
+            "type": "scatter",
+            "score": 0.007615885494580893,
+            "channels": {
+                "x": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 94,
+            "type": "scatter",
+            "score": 0.007615885494580893,
+            "channels": {
+                "x": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 95,
+            "type": "scatter",
+            "score": 0.007615885494580891,
+            "channels": {
+                "x": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "state",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 96,
+            "type": "line",
+            "score": 0.007549818775961839,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 97,
+            "type": "line",
+            "score": 0.007549818775961839,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 98,
+            "type": "line",
+            "score": 0.007549818775961839,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 99,
+            "type": "line",
+            "score": 0.007549818775961837,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 100,
+            "type": "line",
+            "score": 0.007549818775961837,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 101,
+            "type": "line",
+            "score": 0.007549818775961837,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 102,
+            "type": "line",
+            "score": 0.007549818775961834,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 103,
+            "type": "line",
+            "score": 0.007549818775961831,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 104,
+            "type": "line",
+            "score": 0.007549818775961831,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 105,
+            "type": "line",
+            "score": 0.0075498187759618285,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "goal",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 106,
+            "type": "line",
+            "score": 0.007333751605201181,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 107,
+            "type": "bar",
+            "score": 0.006360502578611981,
+            "channels": {
+                "x": {
+                    "attr": "main_category",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "main_category",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 108,
+            "type": "bar",
+            "score": 0.006301765963885221,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 109,
+            "type": "line",
+            "score": 0.006140725732848211,
+            "channels": {
+                "x": {
+                    "attr": "launched",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "launched",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 110,
+            "type": "scatter",
+            "score": 0.00449114056108832,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 111,
+            "type": "scatter",
+            "score": 0.004491140561088305,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 112,
+            "type": "scatter",
+            "score": 0.004491140561088305,
+            "channels": {
+                "x": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 113,
+            "type": "scatter",
+            "score": 0.0044911405610883045,
+            "channels": {
+                "x": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 114,
+            "type": "scatter",
+            "score": 0.0044911405610883045,
+            "channels": {
+                "x": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 115,
+            "type": "scatter",
+            "score": 0.004491140561088301,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "backers",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 116,
+            "type": "scatter",
+            "score": 0.004491140561088301,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 117,
+            "type": "scatter",
+            "score": 0.004491140561088301,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_pledged_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 118,
+            "type": "scatter",
+            "score": 0.004491140561088299,
+            "channels": {
+                "x": {
+                    "attr": "backers",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd_goal_real",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 119,
+            "type": "scatter",
+            "score": 0.004491140561088279,
+            "channels": {
+                "x": {
+                    "attr": "goal",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "usd pledged",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

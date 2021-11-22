@@ -1,0 +1,955 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.026327277012906165,
+            "channels": {
+                "x": {
+                    "attr": "price",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "pie",
+            "score": 0.02340181866239765,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "user_type",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "line",
+            "score": 0.02270521036148565,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "scatter",
+            "score": 0.022576934979834196,
+            "channels": {
+                "x": {
+                    "attr": "price",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.02221287290526405,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parent_category_name",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.021868414438702834,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.021868414438702834,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "pie",
+            "score": 0.021693881898519844,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "pie",
+            "score": 0.021693881898519844,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "line",
+            "score": 0.021182801736750412,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "line",
+            "score": 0.021182801736750398,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "line",
+            "score": 0.021131725565750308,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "line",
+            "score": 0.021014015951527066,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "line",
+            "score": 0.02101401595152706,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.02069773806048448,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.02069773806048448,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.02058379967004476,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "parent_category_name",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.02052881963229557,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.02052881963229557,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.020494987981610174,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "user_type",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.02035123501225071,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.02035123501225071,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.02035123501225071,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.02035123501225071,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.02021763389837102,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.02021763389837102,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.02021763389837102,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.02021763389837102,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "line",
+            "score": 0.019786905887014313,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "line",
+            "score": 0.019786905887014313,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "line",
+            "score": 0.019601513451083824,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "line",
+            "score": 0.019601513451083824,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.019253377106136865,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.01925337710613686,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.01906784191665815,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.019067841916658144,
+            "channels": {
+                "x": {
+                    "attr": "parent_category_name",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.01904871287543511,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.01904871287543511,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.018827573021676047,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.018827573021676047,
+            "channels": {
+                "x": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.018343571197447894,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.018343571197447894,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "activation_date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.01713735731702932,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.01713735731702932,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.01713735731702932,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.01713735731702932,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.016977533400659512,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.016977533400659512,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "month",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.016977533400659512,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "price",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.01697753340065951,
+            "channels": {
+                "x": {
+                    "attr": "activation_date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "deal_probability",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "user_type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        }
+    ]
+}

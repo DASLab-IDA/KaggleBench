@@ -1,0 +1,1505 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.016404188149123616,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.01640418814912361,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.01640418814912361,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.01640418814912361,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.0164041881491236,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.016404188149123596,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.016404188149123596,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.016404188149123596,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.01615110368521882,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.01615110368521882,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.01615110368521882,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.01615110368521882,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.016151103685218812,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.016151103685218812,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.016151103685218812,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.016151103685218812,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.014782746136750433,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.014782746136750433,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "line",
+            "score": 0.013694456099430147,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "line",
+            "score": 0.013694456099430144,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "line",
+            "score": 0.013694456099430142,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "line",
+            "score": 0.013694456099430138,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "line",
+            "score": 0.013400795641320058,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "line",
+            "score": 0.013400795641320056,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "line",
+            "score": 0.013400795641320056,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "line",
+            "score": 0.013400795641320054,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.013068374704064696,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.013068374704064693,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.01306837470406469,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.013068374704064684,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.0127203598898764,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.01272035988987639,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.01272035988987639,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.01272035988987639,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.012566247770274066,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.012566247770274066,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.012566247770274066,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.012566247770274062,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.012566247770274062,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.012566247770274062,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.012566247770274057,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.012566247770274057,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.012355983076533109,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.012355983076533109,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.012355983076533109,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.012355983076533109,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.012355983076533097,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.012355983076533097,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.012355983076533097,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.012355983076533097,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "line",
+            "score": 0.011856160715770912,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "line",
+            "score": 0.011803310425080362,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "line",
+            "score": 0.011803310425080359,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "line",
+            "score": 0.011803310425080355,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "line",
+            "score": 0.011803310425080355,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "line",
+            "score": 0.011536531343068928,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "line",
+            "score": 0.011536531343068927,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "line",
+            "score": 0.011536531343068925,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "line",
+            "score": 0.011536531343068923,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "bar",
+            "score": 0.011014293300018454,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "type",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "scatter",
+            "score": 0.010626387805414575,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "scatter",
+            "score": 0.01062638780541456,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "scatter",
+            "score": 0.01062638780541456,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "scatter",
+            "score": 0.01062638780541456,
+            "channels": {
+                "x": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "scatter",
+            "score": 0.010626387805414554,
+            "channels": {
+                "x": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "scatter",
+            "score": 0.010626387805414554,
+            "channels": {
+                "x": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "bar",
+            "score": 0.010570087026262099,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "year",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.010570087026262099,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "pie",
+            "score": 0.010517864592076974,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "pie",
+            "score": 0.01051786459207697,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "AveragePrice",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "pie",
+            "score": 0.010517864592076962,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "pie",
+            "score": 0.01051786459207696,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "line",
+            "score": 0.009749456960756485,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "pie",
+            "score": 0.008395135173975166,
+            "channels": {
+                "x": {
+                    "attr": "type",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "type",
+                    "trans": "count",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "scatter",
+            "score": 0.006289001410349998,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "scatter",
+            "score": 0.00628900141034999,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "scatter",
+            "score": 0.006289001410349984,
+            "channels": {
+                "x": {
+                    "attr": "AveragePrice",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "scatter",
+            "score": 0.006289001410349968,
+            "channels": {
+                "x": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "scatter",
+            "score": 0.006289001410349967,
+            "channels": {
+                "x": {
+                    "attr": "Total Bags",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "scatter",
+            "score": 0.0062890014103499665,
+            "channels": {
+                "x": {
+                    "attr": "Total Volume",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Small Bags",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

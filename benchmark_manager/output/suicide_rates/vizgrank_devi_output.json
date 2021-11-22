@@ -1,0 +1,1573 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "bar",
+            "score": 0.014494831477484298,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "bar",
+            "score": 0.014494831477484298,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.014494831477484293,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "bar",
+            "score": 0.01449483147748429,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.01449483147748429,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.01449483147748429,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.014334724498082624,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "bar",
+            "score": 0.014334724498082624,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "bar",
+            "score": 0.014334724498082624,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "bar",
+            "score": 0.014334724498082617,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "bar",
+            "score": 0.014334724498082612,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.014334724498082608,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "bar",
+            "score": 0.014020370189256268,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "bar",
+            "score": 0.014020370189256264,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "bar",
+            "score": 0.013872649052276193,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "bar",
+            "score": 0.01387264905227619,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 17,
+            "type": "bar",
+            "score": 0.013613181729684273,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 18,
+            "type": "bar",
+            "score": 0.013613181729684272,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 19,
+            "type": "bar",
+            "score": 0.013613181729684272,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 20,
+            "type": "bar",
+            "score": 0.013613181729684272,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 21,
+            "type": "bar",
+            "score": 0.013613181729684272,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 22,
+            "type": "bar",
+            "score": 0.013613181729684268,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 23,
+            "type": "bar",
+            "score": 0.013410086115175695,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 24,
+            "type": "bar",
+            "score": 0.013410086115175695,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 25,
+            "type": "bar",
+            "score": 0.01341008611517569,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 26,
+            "type": "bar",
+            "score": 0.013410086115175687,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 27,
+            "type": "bar",
+            "score": 0.013410086115175687,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 28,
+            "type": "bar",
+            "score": 0.013410086115175685,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 29,
+            "type": "bar",
+            "score": 0.013300347884617104,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 30,
+            "type": "bar",
+            "score": 0.0133003478846171,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 31,
+            "type": "bar",
+            "score": 0.0133003478846171,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 32,
+            "type": "bar",
+            "score": 0.013300347884617097,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 33,
+            "type": "bar",
+            "score": 0.013300347884617092,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 34,
+            "type": "bar",
+            "score": 0.013300347884617092,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 35,
+            "type": "bar",
+            "score": 0.013116047847263527,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 36,
+            "type": "bar",
+            "score": 0.013116047847263527,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 37,
+            "type": "bar",
+            "score": 0.013116047847263524,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 38,
+            "type": "bar",
+            "score": 0.013116047847263524,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 39,
+            "type": "bar",
+            "score": 0.01311604784726352,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 40,
+            "type": "bar",
+            "score": 0.013116047847263517,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 41,
+            "type": "bar",
+            "score": 0.012772238292486813,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 42,
+            "type": "bar",
+            "score": 0.012772238292486813,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 43,
+            "type": "bar",
+            "score": 0.012604022670287277,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 44,
+            "type": "bar",
+            "score": 0.012604022670287273,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 45,
+            "type": "bar",
+            "score": 0.012512923652459913,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "generation",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 46,
+            "type": "bar",
+            "score": 0.012512923652459913,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "count",
+                    "calcus": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 47,
+            "type": "bar",
+            "score": 0.012494221985259445,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 48,
+            "type": "bar",
+            "score": 0.012494221985259445,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 49,
+            "type": "bar",
+            "score": 0.012494221985259443,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 50,
+            "type": "bar",
+            "score": 0.01225289571210234,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 51,
+            "type": "bar",
+            "score": 0.01225289571210234,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 52,
+            "type": "bar",
+            "score": 0.012252895712102339,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 53,
+            "type": "scatter",
+            "score": 0.011774737152709625,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 54,
+            "type": "scatter",
+            "score": 0.011774737152709625,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 55,
+            "type": "scatter",
+            "score": 0.011774737152709625,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 56,
+            "type": "scatter",
+            "score": 0.011774737152709625,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 57,
+            "type": "scatter",
+            "score": 0.011774737152709625,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 58,
+            "type": "scatter",
+            "score": 0.011774737152709623,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 59,
+            "type": "scatter",
+            "score": 0.01145695874808895,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 60,
+            "type": "scatter",
+            "score": 0.01145695874808895,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 61,
+            "type": "scatter",
+            "score": 0.011456958748088946,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 62,
+            "type": "scatter",
+            "score": 0.011456958748088946,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 63,
+            "type": "scatter",
+            "score": 0.011456958748088938,
+            "channels": {
+                "x": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 64,
+            "type": "scatter",
+            "score": 0.011456958748088929,
+            "channels": {
+                "x": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 65,
+            "type": "scatter",
+            "score": 0.011281974433921621,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 66,
+            "type": "scatter",
+            "score": 0.01128197443392161,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 67,
+            "type": "scatter",
+            "score": 0.01128197443392161,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 68,
+            "type": "bar",
+            "score": 0.011057306444813538,
+            "channels": {
+                "x": {
+                    "attr": "generation",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "generation",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 69,
+            "type": "bar",
+            "score": 0.011057306444813534,
+            "channels": {
+                "x": {
+                    "attr": "age",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "age",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 70,
+            "type": "scatter",
+            "score": 0.010909163324065116,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 71,
+            "type": "scatter",
+            "score": 0.010909163324065116,
+            "channels": {
+                "x": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 72,
+            "type": "scatter",
+            "score": 0.010909163324065113,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                },
+                "color": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                }
+            }
+        },
+        {
+            "rank": 73,
+            "type": "pie",
+            "score": 0.009266672308537545,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 74,
+            "type": "pie",
+            "score": 0.009266672308537543,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides_no",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 75,
+            "type": "pie",
+            "score": 0.009266672308537534,
+            "channels": {
+                "x": {
+                    "attr": "sex",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "sum",
+                    "calcus": "percentage"
+                }
+            }
+        },
+        {
+            "rank": 76,
+            "type": "scatter",
+            "score": 0.0076049368094982025,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "population",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 77,
+            "type": "scatter",
+            "score": 0.007604936809498153,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 78,
+            "type": "scatter",
+            "score": 0.007604936809498153,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 79,
+            "type": "scatter",
+            "score": 0.0072952976526836875,
+            "channels": {
+                "x": {
+                    "attr": "population",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 80,
+            "type": "scatter",
+            "score": 0.007295297652683684,
+            "channels": {
+                "x": {
+                    "attr": "suicides/100k pop",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 81,
+            "type": "scatter",
+            "score": 0.007295297652683666,
+            "channels": {
+                "x": {
+                    "attr": "suicides_no",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "gdp_per_capita ($)",
+                    "trans": "raw"
+                }
+            }
+        }
+    ]
+}

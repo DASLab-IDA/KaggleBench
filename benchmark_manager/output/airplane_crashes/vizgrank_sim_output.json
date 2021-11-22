@@ -1,0 +1,274 @@
+{
+    "charts": [
+        {
+            "rank": 1,
+            "type": "scatter",
+            "score": 0.08470983090584241,
+            "channels": {
+                "x": {
+                    "attr": "Aboard",
+                    "trans": "raw"
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "raw"
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "type": "line",
+            "score": 0.06738896301327557,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "type": "bar",
+            "score": 0.06738896301327557,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "type": "line",
+            "score": 0.06224683035887587,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Date",
+                    "trans": "count",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "type": "bar",
+            "score": 0.06154434073195878,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 6,
+            "type": "bar",
+            "score": 0.06154434073195878,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 7,
+            "type": "bar",
+            "score": 0.06154434073195878,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 8,
+            "type": "line",
+            "score": 0.06154434073195876,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 9,
+            "type": "line",
+            "score": 0.06154434073195876,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 10,
+            "type": "line",
+            "score": 0.06154434073195876,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 11,
+            "type": "line",
+            "score": 0.06154434073195876,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "raw",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 12,
+            "type": "bar",
+            "score": 0.06154434073195876,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "week",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 13,
+            "type": "line",
+            "score": 0.05647767171326515,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 14,
+            "type": "line",
+            "score": 0.05647767171326515,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 15,
+            "type": "line",
+            "score": 0.05647767171326515,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Fatalities",
+                    "trans": "mean",
+                    "calcus": "raw"
+                }
+            }
+        },
+        {
+            "rank": 16,
+            "type": "line",
+            "score": 0.05647767171326513,
+            "channels": {
+                "x": {
+                    "attr": "Date",
+                    "trans": "decade",
+                    "groupby": true
+                },
+                "y": {
+                    "attr": "Aboard",
+                    "trans": "sum",
+                    "calcus": "raw"
+                }
+            }
+        }
+    ]
+}
