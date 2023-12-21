@@ -8,7 +8,8 @@
  
 对每个数据集，它包含以下部分内容：
 
-1.原始数据文件，airplane_crashes_drop_unused_cols.csv，但由于文件大小限制，我们将其保存到了别处https://stuscueducn-my.sharepoint.com/:f:/g/personal/vengeji_stu_scu_edu_cn/ErvLbAEpd7BOl99haBYrsXMBLMgBKxEQ_6wIJt-M8ZdKFw?e=Kejp6x。
+1.原始数据文件，airplane_crashes_drop_unused_cols.csv，但由于文件大小限制，我们将其保存到了别处
+https://stuscueducn-my.sharepoint.com/:f:/g/personal/vengeji_stu_scu_edu_cn/ErusZEUnmI9EpGcaqA1OJ_sBtDny7sJ5ws4JUPXAfxMENw?e=3YMctb
 
 2.  从Kaggle上收集的数据分析记录，位于目录/notebooks下
 
