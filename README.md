@@ -8,8 +8,12 @@
  
 对每个数据集，它包含以下部分内容：
 
-1.原始数据文件，airplane_crashes_drop_unused_cols.csv，但由于文件大小限制，我们将其保存到了别处
-https://stuscueducn-my.sharepoint.com/:f:/g/personal/vengeji_stu_scu_edu_cn/ErusZEUnmI9EpGcaqA1OJ_sBtDny7sJ5ws4JUPXAfxMENw?e=3YMctb
+1.  原始数据文件，airplane_crashes_drop_unused_cols.csv，但由于文件大小限制，我们将其保存到了别处
+
+- OneDrive: https://stuscueducn-my.sharepoint.com/:f:/g/personal/vengeji_stu_scu_edu_cn/ErusZEUnmI9EpGcaqA1OJ_sBtDny7sJ5ws4JUPXAfxMENw?e=3YMctb
+
+- 百度网盘: https://pan.baidu.com/s/1Olmoi6hx6tH7A-jXT0DGNw?pwd=nc3m 提取码: nc3m 
+
 
 2.  从Kaggle上收集的数据分析记录，位于目录/notebooks下
 
@@ -32,3 +36,8 @@ benchmark_manager中包含对benchmark的处理代码。主要有对数据文件
 2.  待所有benchmark中18个数据集处理完成后即可看到结果(处理需要依赖VizGrank的代码)
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0617/213437_a669e5ce_9100839.png "fig4.png")
+
+
+### Citation
+
+Qianfeng Gao, Zhenying He, Yinan Jing, Kai Zhang, and X. Sean Wang. 2021. VizGRank: A Context-Aware Visualization Recommendation Method Based on Inherent Relations Between Visualizations. In Database Systems for Advanced Applications: 26th International Conference, DASFAA 2021, Taipei, Taiwan, April 11–14, 2021, Proceedings, Part III. Springer-Verlag, Berlin, Heidelberg, 244–261. https://doi.org/10.1007/978-3-030-73200-4_16
